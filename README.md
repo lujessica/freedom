@@ -9,7 +9,7 @@ THIS PROJECT VALUES:
 
 THIS PROJECT AIMS TO:
 1. Identify, collect, preserve, and analyze freedom discourse, as constituted and argued by Black users online
-2. Extend understandings of African Americans' rhetorical practices, especially concerning conceptions of FREEDOM, to disrupt and resist anti-Black logics
+2. Extend understandings of African Americans' rhetorical history, especially concerning conceptions of FREEDOM, and their use of language to disrupt and resist anti-Black logics
 3. Affirm and analyze Black people's creative use of digital spaces to innovate human language practices
 4. Cultivate productive and healthy workflows and research habits
 5. Offer transparent and accessible educational materials, enriched by critical theory and concepts, to public audiences
