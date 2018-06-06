@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+       <titleStmt>
+          <title>Twitter thread on media's sympathy towards White perpetrators and criminalization of Black victims</title>
+          <author xml:id="KI">Kaanita Iyer</author>
+  <respStmt>
+<resp>Original TEI template provided by</resp>
+<persName>Jessica H. Lu</persName>
+  </respStmt>
+  <respStmt>
+<resp>Encoded by</resp>
+<persName>Kaanita Iyer</persName>
+  </respStmt>
+       </titleStmt>
+       <publicationStmt>
+          <publisher>
+            <orgName>University of Maryland</orgName>
+          </publisher>
+          <pubPlace>
+            <settlement>College Park</settlement>
+            <region>MD</region>
+          </pubPlace>
+          <availability>
+            <p>For academic use only</p>
+          </availability>
+          <date when="2018-05-11">May 11, 2018</date>
+       </publicationStmt>
+       <sourceDesc>
+        <bibl>
+          <author>
+            <persName>
+              <forename>Preston</forename>
+              <surname>Mitchum</surname>
+            </persName>
+          </author>
+          <publisher>
+            <orgName>Twitter Inc.</orgName>
+          </publisher>
+          <pubPlace ref="https://twitter.com/PrestonMitchum/status/964589997792878592">Twitter</pubPlace> <!-- I listed Twitter as the publication place because it shows that this conversation takes place in a digital space, which gives the opportunity to the Black community to have a platform and voice, which they historically were deprived of.-->
+          <date when="2018-02-16">February 16, 2018</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="eng">English</language>
+    </langUsage>
+    <particDesc>
+      <listPerson>
+        <person>
+          <persName xml:id="TAMIR" ref="https://www.theroot.com/tamir-rice-found-guilty-of-being-young-free-and-black-1790862178">
+            <forename>Tamir</forename>
+            <surname>Rice</surname>
+            <note>Tamir Rice was a 12-year-old boy who was shot and killed on November 22, 2014 by a Cleveland police officer who thought his toy gun was real.</note>
+          </persName>
+        </person>
+        <person>
+          <persName> <!-- I chose not to xml:id Nikolas Cruz because he is not Black and I want to focus on the conversation of Black ciminalization not White vicitimzation. -->
+            <forename>Nikolas</forename>
+            <surname>Cruz</surname>
+            <note>Nikolas Cruz is the suspected perpetrator of the shool shooting of Marjory Stoneman Douglas High School, which killed 17 people.</note>
+          </persName>
+        </person>
+        <person>
+          <persName xml:id="TRAYVON" ref="https://www.theroot.com/remember-trayvon-1792723981">
+            <forename>Trayvon</forename>
+            <surname>Martin</surname>
+            <note>Trayvon Martin was a 17-year-old boy who was shot on February 26, 2012 in Sanford, Florida, by George Zimmerman because he deemed Martin as suspicious. He was acquitted after the shooting was deemed to be self-defense.</note>
+          </persName>
+        </person>
+        <person>
+          <persName xml:id="DAVIS" ref="https://www.theroot.com/jordan-davis-parents-react-to-mistrial-in-son-s-killin-1790874601">
+            <forename>Jordan</forename>
+            <surname>Davis</surname>
+            <note>Jordan Davis was a 17-year-old boy who was shot in Jacksonville, Florida, when he was shot by Michael Dunn after an argument between them about Davis playing loud music. Michalel Dunn was found guilty of first-degree murder.</note>
+          </persName>
+        </person>
+        <person>
+          <persName xml:id="ASJ" ref="https://www.theroot.com/detroit-cop-who-killed-7-year-old-will-face-only-misdem-1790877317">
+            <forename>Aiyana</forename>
+            <surname>Stanley-Jones</surname>
+            <note>Aiyana Stanley-Jones was shot in the head on May 16, 2010 during a police raid of her home. All charges were dropped against the suspect, Officer Joseph Weekley.</note>
+          </persName>
+        </person>
+        <person>
+          <persName xml:id="BROWN" ref="https://www.theroot.com/everything-you-think-you-know-about-the-death-of-mike-b-1793261221">
+            <forename>Michael</forename>
+            <surname>Brown</surname>
+            <note>18-year-old Michael Brown of Ferguson, Missouri, was a supect in a robbery of a convenience store and was fatally shot during an encounter with the police at the scene. Suspect Darren Wilson, a police officer, claimed he shot Brown because Brown tried to take control of his gun and charged at him. Wilson was not indited.</note>
+          </persName>
+        </person>
+        <person>
+          <persName xml:id="PC" ref="https://www.theroot.com/on-philando-castile-terror-and-the-trauma-that-remains-1796311248">
+            <forename>Philando</forename>
+            <surname>Castile</surname>
+            <note>Philando Castile was fatally shot in front of his girlfriend and her four-year-old daughter when he was pulled over in Falcon Heights, Minnesota, by Officer Jeronimo Yanez. Castile was shot while reaching for his ID because Yanez though he was pulling out his gun, which Castile informed that he had. Yanez was acquitted of all charges.</note>
+          </persName>
+        </person>
+        <person>
+          <persName xml:id="GAINES" ref="https://www.theroot.com/we-wont-be-right-for-the-rest-of-our-lives-korryn-gain-1823191795">
+            <forename>Korryn</forename>
+            <surname>Gaines</surname>
+            <note>Korryn Gaines was shot in Randallstown, Maryland, during a standoff between her and the police who came to her apartment to serve a warrant. Police say Gaines threatened the officers with a shotgun and, as a result, was shot. Gaines' five-year-old son was also injured but he survived. The officer who shot Gaines did not receive any charges.</note>
+          </persName>
+        </person>
+        <person>
+          <persName> <!-- I didn't use xml:id for Michael Dunn for the same reason as why I didn't for Nikolas Cruz; it doesn't carry forward/enhance the conversation of Black ciminalization but rather gives importance to the perpetrator if I were to do so. -->
+            <forename>Michael</forename>
+            <surname>Dunn</surname>
+            <note>Michael Dunn was convicted of the first-degree murder of Jordan Davis. He shot Davis after an argument about Davis playing loud music.</note>
+          </persName>
+        </person>
+      </listPerson>
+      <listOrg>
+        <org>
+          <orgName xml:id="CNN">Cable News Network</orgName>
+          <orgName xml:id="MSNBC">Microsoft-National Broadcasting Company</orgName>
+          <orgName>Democracy Now</orgName> <!-- I chose not to xml:id Deomcracy Now because it is an hour-long radio program and now a mainstream news medium which are known for their bias/White narratives.-->
+          <orgName xml:id="FOX">Fox News</orgName>
+        </org>
+      </listOrg>
+    </particDesc>
+    <textDesc n="tweet">
+      <channel mode="w">digital</channel>
+      <constitution type="unknown"/>
+      <derivation type="original"/>
+      <domain type="public"/>
+      <factuality type="inapplicable"/>
+      <interaction type="partial"/>
+      <preparedness type="partial"/>
+      <purpose type="commentary" degree="high"/>
+      <purpose type="inform" degree="medium"/>
+    </textDesc>
+  </profileDesc>
+</teiHeader>
+<text>
+    <body>
+       <div type="orginaltweet">
+         <p>One of these young boys is <persName ref="#TAMIR"> Tamir Rice</persName>(right). He was 12 years old when killed by a cop.</p>
+         <p>The other is <persName>Nikolas Cruz</persName>, who went into #Parkland <choice><sic>&amp;</sic><corr>and</corr></choice> killed 17 <corr>people</corr>. <seg type="protecting+Black+childhood">One was described as a thug; the other was called a "broken child."</seg></p> <!--I assigned a "protecting Black childhood" segment to this sentence because the author, by calling out how a Black child and a victim was treated compared to an of-age suspect, implies that Black children are stripped of their innocence at a young age; hence, calling for the protection of their childhood and innonce. -->
+         <p>Amazing when the media decides to offer humanity.</p>
+        <figure>
+          <graphic url="https://pbs.twimg.com/media/DWLpfO5VAAAb220.jpg"/>
+            <figDesc>Mugshot of Nikolas Cruz, the suspected perpetrator of Marjory Stoneman Douglas High School shooting that killed 17 people.</figDesc>
+          <graphic url="https://pbs.twimg.com/media/DWLpfO4U8AAPb7D.jpg"/>
+            <figDesc>Photo of Tamir Rice, a 12-year-old boy who was killed by police officers who mistook his toy gun for a real one.</figDesc>
+        </figure>
+       <div type="reply">
+         <p>I treat young people committing offenses very seriously - and I don't believe in the death penalty, but it is heartbreaking to always see how the media treats and resonds to young <choice><sic>black</sic><corr>Black</corr></choice> people even as victims.</p>
+       <div type="reply">
+         <p><seg type="recognizing+Black+struggles">In the eyes of mainstream media, there is no such thing as a <choice><sic>black</sic><corr>Black</corr></choice> victim. Not <persName ref="TRAYVON">Trayvon Martin</persName>, not <persName ref="DAVIS">Jordan Davis</persName>, not <persName ref="ASJ">Aiyana Stanley-Jones</persName>, not even <persName>Tamir Rice</persName>. To many <choice><sic>blackness</sic><corr>Blackness</corr></choice> means perpetrator.</seg></p>
+       <div type="reply"> <!-- I segmented this as "recognizing Black struggle because when the author mentions that Black people are only seen as perpetrators and not victims, their experiences are being disregarded, which is why it is important to recognize Black struggles." -->
+         <p>While I recognize many may not appreciate this comparison, I find it to be an important one. Why? Because <seg type="call+for+direct+resistance">we have to call out the anti-<choice><sic>black</sic><corr>Black</corr></choice> racism pervasive in mainstream media and its reporting.</seg></p> <!-- I segmented this as "call for direct action" because the author directly suggest for a way to redfine Black freedom, which is to call out the racism and anti-Black narrative of the media.-->
+       <div type="reply">
+         <p>And for those wondering, "<choice><sic>is</sic><corr>Is</corr></choice> this really about racism and anti-<choice><sic>blackness</sic><corr>Blackness</corr></choice> when <forename>Nikolas</forename>' last name is "<surname>Cruz</surname>."<corr>"</corr> Yes. And that question also means that you fail to realize that <choice><sic>whiteness</sic><corr>Whiteness</corr></choice> doesn't operate within a vacuum.</p>
+       <div type="reply">
+         <p>Let's remember how the media treats young <choice><sic>black</sic><corr>Black</corr></choice> people: <seg type="protecting+Black+childhood"><persName ref="BROWN">Mike Brown</persName> was a teenager referred to as a "man" to make him older than his age indicated.</seg> He was shot as he was leaving. That didn't stop media from referring to him as a thug who deserved to die.</p> <!-- I segmented this as "protecting Black childhood" because Mike Brown was stripped of his innocence and childhood by being referred to as a 'man'; therefore, the author is calling to protect Black children.-->
+       <div type="reply">
+         <p><persName ref="PC">Philando Castile</persName> may not have been as young as <persName>Tamir Rice</persName> or <persName>Mike Brown</persName>, but had a licenced weapon and was still gunned down in front of his girlfriend and daughter. This was filmed live. The terroristic NRA basically said "we need to investigate further." See: racism.</p>
+       <div type="reply">
+         <p><persName ref="GAINES">Korryn Gaines</persName> was killed in <settlement>Baltimore</settlement>, <region>Md.</region> even though she was holding her son. To this day, people still blame her for her own death despite police being trained in de-escalation. They didn't care for her (or her son's life). Because: Black woman.</p>
+       <div type="reply">
+         <p>Remember <persName>Jordan Davis</persName>? He was killed because <persName>Michael Dunn</persName>, an older <choice><sic>white</sic><corr>White</corr></choice> man, didn't like how loud his music was. He killed him and went back home to eat pizza. This was also in <region>Florida</region>. That older man said he was he was intimatted and that <surname>Davis</surname> had a gun.</p>
+         <p>Spoiler: he did not.</p>
+       <div type="reply">
+         <p>Point is: <seg type="multidimensionality+of+Black+men">young <choice><sic>black</sic><corr>Black</corr></choice> people are not given the chance to be victims or survivors; only perpetrators of violence.</seg> This is played out (and defended) in the media who only exacerbate this dangerous narrative. It must stop.</p> <!-- I segmented this as "multidimensionality of Black men" because by saying that Black men are only shown as perpetrators and not as victims, the author implies that Black men are multidimensional and the media has not tapped into that yet.--> <!-- I chose to capitalize Black and Blackness because I believe it is a proper adjective and the Black community has been historically disrespected and discredited; therefore I believe the capitalization shows that they are humans and deserve the respect that is not given in mainstream narrative. Also, since I capitalized Black and Blackness, I chose to capitalize White and Whiteness for consistency.-->
+       <div type="reply">
+         <p> <seg type="call+for+direct+resistance"> So, yes, <g>@</g><orgName ref="https://twitter.com/CNN">CNN</orgName>, <g>@</g><orgName ref="https://twitter.com/MSNBC">MSNBC</orgName>, <g>@</g><orgName ref="https://twitter.com/democracynow">democracynow</orgName>, <g>@</g><orgName ref="https://twitter.com/FoxNews">FoxNews</orgName> (not that we expect much for you, in particular), it is incumbent to offer perspectives that will uplift the most marginalized.</seg></p>
+         <p>Not that y'all will all care... but just a thought from a Black person.</p> <!-- I segmented this as "call for direct resistance" because it is calling out media organizations to do better and, through their journalism, resist the perpetuating anti-Black narrative currently present in the media. -->
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </body>
+</text>
+</TEI>

@@ -1,0 +1,16 @@
+tei-text {
+  border: 2px solid black;
+}
+tei-supplied::before {
+content: " (";
+}
+tei-supplied::after {
+content: " )";
+}
+tei-seg {
+font-weight: bold;
+color: red;
+}
+tei-label {
+  display: none;
+}

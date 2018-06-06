@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>Twitter Thread Showcasing Digital Resistance to White Narrative of Black Experiences</title>
+          <author xml:id="KI">Kaanita Iyer</author>
+        <respStmt>
+        <resp>Original TEI template provided by</resp>
+          <persName>Jessica H. Lu</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+            <persName>Kaanita Iyer</persName>
+        </respStmt>
+      </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                    <orgName>University of Maryland</orgName>
+                  </publisher>
+                  <pubPlace>
+                    <settlement>College Park</settlement>
+                    <region>MD</region>
+                  </pubPlace>
+                  <availability>
+                    <p>For academic use only</p>
+                  </availability>
+                  <date when="2018-05-11">May 11, 2018</date>
+               </publicationStmt>
+     <sourceDesc>
+        <bibl>
+          <author>
+            <persName>
+              <forename>Unknown</forename>
+              <surname>Unknown</surname>
+              <addName>@DamnJazAgain</addName>
+              <note>This Twitter user's name was not included in her profile. Only her username is known.</note>
+            </persName>
+          </author>
+          <publisher>
+            <orgName>Twitter Inc.</orgName>
+          </publisher>
+          <pubPlace ref="https://twitter.com/DamnJazAgain/status/991743172425535490">Twitter</pubPlace> <!-- I listed Twitter as the publication place because it shows that this conversation takes place in a digital space, which gives the opportunity to the Black community to have a platform and voice, which they historically were deprived of.-->
+          <date when="2018-05-02">May 2, 2018</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Only the original tweet and two reply tweets have been encoded. Seven tweets in the thread were not encoded as it did not pertain to the project topic.</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>This project aims to provide students, scholars, practitioners with a brief introduction to the work that focuses on the Black community's resistance to news media's historically bias narrative—which largely criminalizes the community—in digital spaces.</p>
+      </projectDesc>
+    </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="eng">English</language>
+    </langUsage>
+    <textDesc n="tweet">
+      <channel mode="w">digital</channel>
+      <constitution type="unknown"/>
+      <derivation type="original"/>
+      <domain type="public"/>
+      <factuality type="inapplicable"/>
+      <interaction type="partial"/>
+      <preparedness type="partial"/>
+      <purpose type="commentary" degree="high"/>
+      <purpose type="inform" degree="medium"/>
+    </textDesc>
+  </profileDesc>
+</teiHeader>
+<text>
+<body>
+  <div type="orginaltweet">
+    <p><seg type="recognizing+forces+of+anti-Black+media+narrative">Forces that fragment/hinder the <choice><sic>black</sic><corr>Black</corr></choice> community: <choice><sic>Police</sic><corr>police</corr></choice> brutality, prison industrial complex, mass incarceration, media feminization and criminalization of the <choice><sic>black</sic><corr>Black</corr></choice> man, social welfare programs conditional on absent father, health <choice><sic>&amp;</sic><corr>and</corr></choice> mental health inequity, <add>and</add> interracial coupling<add>.</add></seg></p>
+    <!--I segmented this as "recognizing cause of anti-Black media narrative" because to redefine Black freedom and correct media's anti-Black portrayal, it is important to identify the forces that drives the narrative.-->
+  <div type="reply">
+    <p>The media plays a huge role in ensuring that the feminization and criminalization of the <choice><sic>black</sic><corr>Black</corr></choice> man is a perpetuating cycle. <seg type="Black+innocence"> We've all seen how the news will use a mugshot for the innocent <choice><sic>black</sic><corr>Black</corr></choice> man slain by police while using a picture of the <choice><sic>white</sic><corr>White</corr></choice> mass shooter petting a kitten<add>.</add></seg></p>
+  <div type="reply"> <!-- I segmented this as "Black innocence" because the author is calling out how the media portrays even innocent Black people as perpetrators using old criminal record, implying that it is important that the narrative of innocence should not be tainted and if he is innocent, it should be left as just that. She is also calling for Black innocence to be highlighted more as it is always overshadowed by something negative.-->
+    <p><seg type="multidimensionality+of+Black+men">If the media isn't portraying the <choice><sic>black</sic><corr>Black</corr></choice> man as a oversexualized, dangerous or ciminal, he's being portrayed as homosexual. Outside of that, the only time we see <choice><sic>blacks</sic><corr>Blacks</corr></choice> portrayed positively in the media is when we're singing, dancing or entertaining <choice><sic>wh*te</sic><corr>White</corr></choice> folks in the sports arena<add>.</add></seg></p> <!-- I segmented this as "multidimensionality of Black men" because by saying that Black men are not shown as victims, and only shown as perpetrators or in ways which can be capitalized off, the author is implying that there are positive qualities and other facets to Black people than what is portrayed.-->
+  </div>
+</div>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,16 @@
+a {cursor: context-menu;
+}
+tei-Orig {display: none;
+}
+tei-Seg {font-weight: bold;
+}
+tei-P {text-align: center;
+}
+tei-Add {display: none;
+}
+tei-Tei {background: #c0deed
+}
+tei-Seg:hover {background-color: white;
+}
+html {background: linear-gradient(0deg, #9bbede, #ffffff)
+}

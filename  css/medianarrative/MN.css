@@ -1,0 +1,11 @@
+tei-sic{
+  display: none;
+}
+tei-choice tei-sic + tei-corr:before,
+tei-choice tei-corr + tei-sic:before,{
+content: none;
+}
+tei-choice tei-sic + tei-corr::after,
+tei-choice tei-corr + tei-sic:after,{
+content: none;
+}

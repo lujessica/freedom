@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">#BEYGOOD: FREEDOM</title>
+        <title type="sub">Digital Edition</title>
+        <author>
+          <persName xml:id="AL">
+            <forename>Alice</forename>
+            <surname>Liu |</surname>
+          </persName>
+          <orgName xml:id="FIRE">First Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+        </author>
+        <respStmt>
+          <resp>TEI Template provided by</resp>
+          <persName>Jessica H. Lu</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName ref="#AL">
+            <forename>Alice</forename>
+            <surname>Liu</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName ref="#FIRE">First Year Innovation and Research Experience</orgName>
+        </publisher>
+        <pubPlace>
+          <settlement>College Park</settlement>
+          <region>Maryland</region>
+        </pubPlace>
+        <date when="2018-04-27">April 27, 2018</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>#BEYGOOD: FREEDOM</title>
+          <author>
+            <persName xml:id="B">Beyonce</persName> <!--Beyonce's name is spelled incorrectly since there should be an accent on the last e. Due to today's online practices, people have adopted a sense of neglect when it comes to spelling in its full manner.!-->
+          </author>
+          <publisher>
+            <orgName ref="TOWB">The Official Website of Beyonce</orgName>
+          </publisher>
+          <pubPlace ref="http://www.beyonce.com/freedom/">beyonce.com</pubPlace> <!-- I decided to encode Beyonce's website as a place with respect to African American history and the ability to voice one's opinions to the public through the Internet. A Black woman is utilizing digital space to talk directly to her audience, which is important given the historic and contemporary barriers Black women face when asserting their voice or experience.!-->
+          <date when="2016-07-07">July 7, 2016</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+      <particDesc>
+        <listPerson>
+          <person>
+            <persName ref="#B">
+              <persName ref="https://www.biography.com/people/beyonce-knowles-39230"></persName>
+              <forename>Beyonce</forename>
+              <surname>Knowles-Carter</surname>
+              <note>Beyonce is a singer and film actress who uses her platform to promote feminism, empower people, and bring awareness to social issues.</note>
+            </persName>
+          </person>
+          <person>
+            <persName xml:id="AS" ref="https://www.thenation.com/article/why-alton-sterling-and-philando-castile-are-dead/">
+              <forename>Alton</forename>
+              <surname>Sterling</surname>
+              <note>Alton Sterling was a 37 year old African American who was fatally shot by two white officers in <placeName>Baton Rouge, Louisiana</placeName> on <date when="2016-07-05">July 5, 2016.</date></note>
+            </persName>
+          </person>
+          <person>
+            <persName xml:id="PC" ref="https://www.thenation.com/article/why-alton-sterling-and-philando-castile-are-dead/">
+              <forename>Philando</forename>
+              <surname>Castile</surname>
+              <note>Philando Castile was shot and killed after being pulled over in <placeName>Falcon Heights</placeName> on <date when="2016-07-06">July 6, 2016.</date></note>
+            </persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>WE <supplied reason="clarification">The Black Population or African Americans in the United States</supplied> ARE SICK AND TIRED OF THE KILLINGS OF YOUNG<lb/>
+        MEN AND WOMEN IN OUR COMMUNITIES.</p>
+
+      <p>IT IS UP TO US <supplied reason="repetition">Continuous references to a greater community through inclusive language</supplied> TO TAKE A STAND AND DEMAND THAT THEY<lb/>
+        "STOP KILLING US."</p>
+
+      <p>WE DON'T NEED SYMPATHY.<lb/>
+        <seg type="justice">WE NEED EVERYONE TO RESPECT OUR LIVES.</seg></p>
+
+      <p><seg type="safety">WE'RE GOING TO STAND UP AS A COMMUNITY AND FIGHT AGAINST<lb/>
+        ANYONE WHO BELIEVES THAT MURDER OR ANY VIOLENT ACTION BY<lb/>
+        THOSE WHO ARE SWORN TO PROTECT US SHOULD CONSISTENTLY GO UNPUNISHED.</seg></p>
+
+      <p>THESE ROBBERIES OF LIVES <supplied reason="clarification">The names of two specific lives are named later on, but they are not just limited to those people.</supplied> MAKE US FEEL HELPLESS AND HOPELESS<lb/>
+        BUT WE HAVE TO BELIEVE THAT WE ARE FIGHTING FOR THE RIGHTS OF<lb/>
+        THE NEXT GENERATION, FOR THE NEXT YOUNG MEN AND<lb/>
+        WOMEN WHO BELIEVE IN GOOD.</p> <!--Black lives have long been dismissed when it comes to police brutality and other discriminatory actions. Beyonce makes a point to address how lives have in a sense been stripped and taken with no consent. She also addresses that the fight needs to continue for future generations. I thought it was important to include a supplied tag to clarify that these lives will be remembered and their names will not be forgotten.!-->
+
+      <p><seg type="equality">THIS IS A HUMAN FIGHT. NO MATTER YOUR RACE, GENDER OR SEXUAL<lb/>
+        ORIENTATION. THIS IS A FIGHT FOR ANYONE WHO FEELS MARGINALIZED,<lb/>
+        WHO IS STRUGGLING FOR FREEDOM AND HUMAN RIGHTS.</seg></p>
+
+      <p>THIS IS NOT A PLEA TO ALL POLICE OFFICERS BUT TOWARD ANY HUMAN<lb/>
+        BEING WHO FAILS TO VALUE LIFE. THE WAR ON PEOPLE OF COLOR AND<lb/>
+        ALL MINORITIES NEEDS TO BE OVER. <supplied reason="emphasize">Beyonce makes an effort to call out everyone. She includes "any human being" to suggest that anyone can take part in these actions.</supplied> </p>
+
+      <p>FEAR IS NOT AN EXCUSE. HATE WILL NOT WIN.</p> <!--Short phrases that speak volumes. It is pretty straightforward so I did not feel the need to encode any additional comments because I have developed an appreciation for letting Black people speak in their own words without the interpretation or intervention of non-Black people.!-->
+
+      <p><seg type="right">WE ALL HAVE THE POWER TO CHANNEL OUR ANGER AND FRUSTRATION<lb/>
+        INTO ACTION.</seg> WE MUST USE OUR VOICES TO CONTACT THE POLITICIANS<lb/>
+        AND LEGISLATORS IN OUR DISTRICTS AND DEMAND SOCIAL<lb/>
+        AND JUDICIAL CHANGES.</p>
+
+      <p>WHILE WE PRAY FOR THE FAMILIES OF <supplied>Beyonce brought up specific names to amplify identities and keep them relevant.</supplied> <persName ref="AS">ALTON STERLING</persName> AND <persName ref="PC">PHILANDO<lb/>
+        CASTILE</persName>, WE WILL ALSO PRAY FOR AN END TO THIS PLAGUE OF INJUSTICE<lb/>
+        IN OUR COMMUNITIES.</p>
+
+      <p>CLICK IN TO CONTACT THE POLITICIANS AND LEGISLATORS IN YOUR AREA.<lb/>
+        YOUR VOICE WILL BE HEARD. <supplied reason="action">Beyonce ends with a plead for action among the public. She intends to make her point clear that change needs to happen in order for Black lives to improve.</supplied></p>
+
+      <p><persName ref="#B">- BEYONCE</persName></p>
+    </body>
+  </text>
+</TEI>

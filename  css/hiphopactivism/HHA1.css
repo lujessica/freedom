@@ -1,0 +1,16 @@
+tei-supplied {
+  display: none;
+}
+tei-Seg {
+  font-weight: bold;
+}
+tei-Text {
+  border: 2px solid #000000;
+  background-color: black;
+  color: white
+}
+h4 {
+  text-decoration: underline;
+}
+tei-P {text-align: center;
+}

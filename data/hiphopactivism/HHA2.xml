@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">J. Cole's "Be Free"</title>
+            <title type="sub">Digital Edition</title>
+          <author>
+            <persName xml:id="AL">
+              <forename>Alice</forename>
+              <surname>Liu |</surname>
+            </persName>
+            <orgName xml:id="FIRE">First Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+          </author>
+         <respStmt>
+           <resp>TEI Template provided by</resp>
+           <persName>Jessica H. Lu</persName>
+           </respStmt>
+           <respStmt>
+             <resp>Encoded by</resp>
+             <persName ref="#AL">
+               <forename>Alice</forename>
+               <surname>Liu</surname>
+             </persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+           <publisher>
+             <orgName ref="#FIRE">First Year Innovation and Research Experience</orgName>
+           </publisher>
+           <pubPlace>
+             <settlement>College Park</settlement>
+             <region>Maryland</region>
+           </pubPlace>
+           <date when="2018-05-11">May 11, 2018</date>
+         </publicationStmt>
+         <sourceDesc>
+           <bibl>
+             <title>"Be Free"</title>
+             <author>
+               <persName xml:id="J">J. Cole>
+                 <forename>Jermaine</forename>
+                 <surname>Cole</surname>
+               </persName>
+             </author>
+             <publisher>
+               <orgName ref="G">2018 Genius Media Group Inc.</orgName>
+             </publisher>
+             <pubPlace ref="http://www.genius.com/J-cole-be-free-lyrics">genius.com</pubPlace> <!-- I decided to encode Genius as a place because it has become a platform where rap and hip hop genres are discussed freely.!-->
+             <date when="2014-08-15">August 15, 2014</date>
+          </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+        <langUsage>
+          <language ident="eng">English</language>
+        </langUsage>
+        <particDesc>
+          <listPerson>
+            <person>
+              <persName ref="#J">
+                <persName ref="https://www.biography.com/people/j-cole-5152017"></persName>
+                <forename>Jermaine</forename>
+                <surname>Cole</surname>
+                <note>J. Cole is a rapper and music producer who has continuously used his influence to talk about social issues through his lyricism and online presence.</note>
+              </persName>
+            </person>
+            <person>
+              <persName xml:id="MB" ref="https://www.nytimes.com/interactive/2014/08/13/us/ferguson-missouri-town-under-siege-after-police-shooting.html">
+                <forename>Michael</forename>
+                <surname>Brown</surname>
+                <note>Michael Brown was an unarmed black teenager who was shot and killed on <date when="2014-08-09">August 9, 2014</date> by Darren Wilson in <placeName>Ferguson, Missouri</placeName>.</note>
+              </persName>
+            </person>
+            <person>
+              <persName xml:id="DJ" ref="https://www.riverfronttimes.com/newsblog/2015/08/05/dorian-johnson-a-year-after-mike-browns-death-hes-still-grappling-with-the-fallout">
+                <forename>Dorian</forename>
+                <surname>Johnson</surname>
+                <note>Dorian Johnson was Michael Brown's best friend who was with him prior to the fatal shooting.</note>
+              </persName>
+            </person>
+            <person>
+              <persName xml:id="DW" ref="https://www.newyorker.com/magazine/2015/08/10/the-cop">
+                <forename>Darren</forename>
+                <surname>Wilson</surname>
+                <note>Darren Wilson is the former police officer who shot and killed Michael Brown.</note>
+              </persName>
+            </person>
+          </listPerson>
+        </particDesc>
+      </profileDesc> <!--I chose to do a profile description because I thought it was important to amplify the stories of the Black lives impacted through citing their names and offering a brief decription.!-->
+  </teiHeader>
+  <text>
+      <body>
+         <p>[Verse 1]<lb/> <!--I thought it was important to label the verses and hooks because it is important to the layout of the song and displays a lot of meaning especially later on when it clarifies who (Dorian Johnson) is speaking.!-->
+           And I'm in denial<lb/>
+           And it don't take no x-ray to see right through my smile<lb/>
+           I know, I be on the go<lb/>
+           And there ain't no drink out there that can numb my soul<supplied>No liquor is strong enough to split the relationship of his soul and its pain</supplied><lb/>
+           Oh no</p>
+
+         <p>[Hook]<lb/>
+           <seg type="equality">All we want to do is take the chains off<lb/>
+           All we want to do is break the chains off<lb/>
+           All we want to do is be free<supplied reason="repetition">Emphasis on wanting to be free throughout the song</supplied><lb/>
+           All we want to do is be free<lb/>
+           All we want to do is take the chains off<supplied reason="clarification">References to slavery</supplied><lb/>
+           All we want to do is break the chains off<lb/>
+           All we want to do is be free<lb/>
+           All we want to do is be free</seg></p>
+
+         <p>[Verse 2]<lb/>
+           Can you tell me why<lb/>
+           Every time I step outside I see my niggas die<lb/>
+           I'm lettin' you know<lb/>
+           That there ain't no gun they make that can kill my soul<supplied reason="clarification">A body can be physically obliterated, but a soul will continue to live forever and voices can not be silenced</supplied><lb/> <!--I thought it would be relevant to provide a clarification of J.Cole's lyrics to show deeper meaning and analysis of his lyricism.!-->
+           Oh no</p>
+
+         <p>[Hook]<lb/>
+           <seg type="equality">All we want to do is take the chains off<lb/>
+           All we want to do is break the chains off<lb/>
+           All we want to do is be free<lb/>
+           All we want to do is be free<lb/>
+           All we want to do is take the chains off<lb/>
+           All we want to do is break the chains off<lb/>
+           All we want to do is be free<lb/>
+           All we want to do is be free</seg></p>
+
+         <p>[Eyewitness account from <persName ref="DJ">Dorian Johnson</persName>:]<lb/>
+           So now it was like the officer <supplied><persName ref="DW">Darren Wilson</persName></supplied> is pulling him inside the car and he's<lb/>
+           trying to pull away. At no time the officer said that he was going<lb/>
+           to do anything until he pulled out his weapon. His weapon was<lb/>
+           drawn and he said, "I'll shoot you" or, "I'm going to shoot" and in<lb/>
+           the same moment, the first shot went off. We looked down and he<lb/>
+           was shot and there was blood coming from him. Then we took off<lb/>
+           running</p>
+
+         <p>[Bridge]<lb/>
+           Are we all alone, fighting on our own<lb/>
+           Please give me a chance, I don't wanna dance<lb/>
+           Somethings got me down, I will stand my ground<lb/>
+           Don't just stand around, don't just stand around</p>
+
+         <p>[Eyewitness account from <persName ref="#DJ">Dorian Johnson</persName>:]<lb/>
+           As we <supplied reason="clarification">Dorian Johnson and Michael Brown</supplied> took off running I ducked and hid for my life, because I was<lb/>
+           fearing for my life. I hid behind the first car I saw. My friend, <supplied reason="clarification">Michael Brown</supplied> he<lb/>
+           kept running, and he told me to keep running because he feared<lb/>
+           for me too. So as he was running the officer was trying to get out<lb/>
+           of the car, and once he got out the car he pursued my friend but<lb/>
+           his weapon was drawn. Now he didn't see any weapon drawn at<lb/>
+           him or anything like that, us going for no weapon. His weapon was<lb/>
+           already drawn when he got out the car. He shot again, and once<lb/>
+           my friend felt that shot, he turned around and put his hands in the<lb/>
+           air, and started to get down, but the officer still approached with<lb/>
+           his weapon drawn and he fired 7 more shots <supplied>Indicated details with the exact number of shots</supplied> and my friend died</p>
+
+         <p>[Hook]<lb/>
+           <seg type="equality">All we want to do is take the chains off<lb/> <!--I chose to emphasize the freedom language in each hook section to show how the repetition of it builds up to create a stronger message of freedom.!-->
+           All we want to do is break the chains off<lb/>
+           All we want to do is be free<lb/>
+           All we want to do is be free<lb/>
+           All we want to do is take the chains off<lb/>
+           All we want to do is break the chains off<lb/>
+           All we want to do is be free<lb/>
+           All we want to do is be free</seg></p>
+      </body>
+  </text>
+</TEI>
