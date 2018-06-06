@@ -14,4 +14,6 @@ THIS PROJECT AIMS TO:
 4. Cultivate productive and healthy workflows and research habits
 5. Offer transparent and accessible educational materials, enriched by critical theory and concepts, to public audiences
 
+This project is made possible by the support of the African American History, Culture, & Digital Humanities (AADHum) initiative, the First-Year Innovation and Research Experience (FIRE), and the Maryland Institute for Technology in the Humanities (MITH) at the University of Maryland, College Park.
+
 All questions and concerns can be directed to Jessica H. Lu, via jhl dot jessica at gmail dot com.

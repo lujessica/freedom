@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>"I Am Not My Hair": Digital Edition</title>
+<meta charset="utf-8">
+<meta name="description" content="India.Arie's song about black beauty, the natural hair journey, and the freedom of being more than your hair">
+<meta name="author" content="Ariana Lawson and Courtney Richardson">
+<meta name="organization" content="First-Year Innovation and Research Experience (FIRE), in collaboration with African American History, Culture, and Digital Humanities (AADHum)">
+<meta name="funder" content="Andrew W. Mellon Foundation">
+
+<script src="../js/CETEI.js"></script>
+
+<link rel="stylesheet" href="../css/CETEIcean.css"/>
+<link rel="stylesheet" href="../css/naturalhair/NH2.css"/>
+
+</head>
+<body>
+
+<div id="TEI"></div>
+
+<script>
+var CETEIcean = new CETEI()
+CETEIcean.getHTML5("../data/naturalhair/NH2.xml", function(data) {
+document.getElementById("TEI").appendChild(data)
+})
+</script>
+
+</body>
+</html>
