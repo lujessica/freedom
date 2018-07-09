@@ -1,0 +1,67 @@
+Documentation and Guidelines for Encoding the Black Freedom Archives Project
+for the First Edition
+Last Revised 9 July 2018
+by Jessica H. Lu
+
+
+General standards:
+(1) The primary commitments guiding this encoding project are the amplification and affirmation of Black people's lives and histories; African American history and culture; and critical Black thought, especially that which works to disrupt and dismantle white supremacy and anti-Blackness.
+(2) The secondary commitments guiding this encoding project are digital preservation, the study and analysis of rhetorical history, and digital sustainability.
+(3) For ease of reading, all digital surrogates will utilize tab-align formatting to visually reinforce nested tag structures.
+(4) Whenever possible, comments and <add> will be used to enrich markup with citations and accreditation to Black thinkers, writers, scholars, activists, and citizens. These efforts are undertaken in accordance with the primary commitments of this project.
+
+
+TEI-HEADER
+All digital surrogates will complete the following header elements: <fileDesc>, <encodingDesc>, <profileDesc>, and <revisionDesc>. Detailed completion requirements for each element follows below.
+
+
+<fileDesc>:
+REQUIRES a <titleStmt>, <editionStmt>, <extent>, <publicationStmt>, <seriesStmt>, and <sourceDesc>. Proper form is detailed in the corresponding document, template.xml.
+
+<titleStmt> will be used to provide a title AND subtitle for the digital surrogate, as well as to credit the author(s) of, contributors to, and funder(s) of the creation of the digital surrogate. Every attempt to provide extensive detail will be made, including the use of specific nested tags (e.g. persName, forename, surname) and xml-id assignment for first instances of personal names. The titleStmt will include, at minimum, a respStmt for each of the following responsibilities: "Encoded by," "Original text transcribed by," and "Original TEI template provided by." Additional responsibilities may be added as needed. This element will primarily used to make visible (1) the labor invested by the surrogate's authors and contributors; and (2) the authorial choices made by the surrogate's encoder(s).
+
+<editionStmt> will be used to indicate the edition number of the digital surrogate. For all digital surrogates following this style and documentation guide, the edition shall be the First.
+
+<extent> will be used to indicate the scope of the encoded text, relative to the original source material.
+
+<publicationStmt> will be used to provide information about the publication and availability of the digital surrogate. For the First Edition of this project, the publisher will be identified as the African American History, Culture, and Digital Humanities (AADHum) Initiative. Publication date will be specified as the date of final encoding revisions. Current availability is "free" in the public domain, to bolster access to and transparency of this encoding project.
+
+<seriesStmt> will be used to provide information about the larger corpus to which the digital surrogate belongs. The current title of the series is "Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re)Making of Black Freedom Online," with the subtitles "Black Panther," "Hip Hop Activism," "Media Narrative," and "Natural Hair."
+
+<sourceDesc> will be used to provide information about the original source material. For the First Edition, all original source material that takes the form of digital content (i.e. blogs, websites, Twitter, etc.) will be encoded using <bibl> and its corresponding tags: <title>, <author>, <publisher>, <pubPlace>, and <date>. Beyond this basic required information, every attempt will be made to properly credit all sources that contribute to the markup of the digital surrogate. Therefore, sourceDesc also requires a <bibl> each for: (1) Jessica H. Lu's dissertation, "Reckoning with Freedom: Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau," which lays the analytical groundwork for the project; and (2) an <interpGrp> placeholder for future ideational analysis/interpretation of the various ideational strands that constitute Black freedom discourse online. Additional <bibl> elements should be used to credit other sources (especially secondary research) that contribute to the encoder's analytical and interpretive decisions in marking up the text.
+
+
+<encodingDesc>:
+REQUIRES a <editorialDecl>, <projectDesc>, and (when needed) a <samplingDecl>. Proper form is detailed in the corresponding document, template.xml.
+
+<editorialDesc> will be used to indicate changes or editorial decisions regarding formatting, typographical errors, misspellings, normalizations, and hyphenation.
+
+<projectDesc> will be used to describe the focus, purpose, and commitments of this encoding project. The following standard language may be used: "This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduate students at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson."
+
+
+<profileDesc>
+REQUIRES <langUsage> and <particDesc>. Proper form is detailed in the corresponding document, template.xml.
+
+<langUsage> will be used to indicate the languages used and represented in the digital surrogate of the original text. Most often, the languages used will be identified as American English ("us-en") and African American Vernacular English ("AAVE").
+
+<particDesc> will be used (in conjunction with <listOrg>, <listPerson>, and <personGrp> whenever appropriate) to identify every meaningful participant in the text. Special effort must be made to identify and amplify Black participants and organizations. All person participants must be (1) provided an xml ID; (2) linked to existing Library of Congress Authority Files, by both number and URL; (3) role name(s), office(s), and/or position(s), when applicable; and (4) accompanied by a note with standard biographical information and/or a brief statement of their relevance to the text. Notes will be especially important when LCAF are not available. All organization participants must be (1) identified by name and abbreviation, if applicable; (2) assigned an xml ID; (3) linked to linked to existing Library of Congress Authority Files, by both number and URL; (4) located by a <placeName> and corresponding place tags; and (5) accompanied by a note with standard description information and/or a brief statement of their relevance to the text. Notes will be especially important when LCAF are not available. <personGrp> will be used when a collection or assembly of individual persons is referred to as a group (e.g. Board of Regents, Alpha Kappa Alpha sorority, etc.), and will be provided with appropriate description and identifying information as person participants and organization participants. <personGrp> will also be used for any digital surrogate in which Black people are grouped together, especially when such grouping is used to diminish or erase the unique humanity of each Black person. In such a case, the following language may be used in a <note>: "The identification and amplification of this person group is necessary for the reading and interpretation of this text, as this text  uses "INSERT GROUP TERM HERE, e.g. the negro, Blacks, the Black man, etc." to erroneously generalize about all Black and African Americans and/or diminish their status as fully human."
+
+
+<revisionDesc>:
+REQUIRES use of the <listChange> and <change> tags to track substantive changes made to the digital surrogate. For each change, a short statement of the revision is required, accompanied by the date of the revision. For the purposes of the revisionDesc,  a "substantive change" refers to any revision that meaningfully alters the content or reading of the digital surrogate. In other words, corrections to spelling or markup errors do not apply.
+
+
+TEI-BODY
+All digital surrogates will utilize the TEI Guidelines, and its extensive library of elements & tags, in order to appropriately preserve and render the formatting and content of the original source material.
+
+The following standards, however, are in place:
+(1) Unless it will disrupt the formatting of the digital surrogate when rendered online, all hyphenation in the original source material is to be regularized using <choice>, <orig>, and <reg> tags.
+(2) All obvious spelling and typographical errors in the original source material is to be corrected, using <choice>, <sic>, and <corr> tags.
+(3) To represent changes and/or corrections made by the original source authors BEFORE the encoding process, encoders will use <add>, <del>, and <subst>, appropriately and as needed.
+(4) Encoders will use <supplied> tags, in conjunction with the ref attribute, to provide clarification and supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.
+(5) Encoders will encode all dates.
+(6) Encoders will reference all mentions of person participants, organization participants, and person-group participants using the xml ID assigned in the TEI header.
+(7) Encoders will use basic persName, orgName, measure, etc. tags to encode non-meaningful entities (people, organizations, quantities, currency, and units, etc.) that were not identified in the profileDesc.
+(8) Encoders will use <seg>, in conjunction with the "corresp" attribute  and assigned xml IDs, to link shorthand and/or relative pronoun references to meaningful people, organizations, or groups.
+(9) Graphics should be encoded appropriately using <figure>, <graphic>, and <figDesc> markup. Whenever possible, graphics should be linked to their original URL.
+(10) Encoders should use comments to mark passages that require editorial review/decision.

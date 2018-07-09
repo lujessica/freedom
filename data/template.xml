@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+      <titleStmt>
+        <title type="main">Digital surrogate title, limited to 10 words or less</title>
+        <title type="sub">Digital Edition</title>
+        <author>
+          <persName xml:id="JLU">
+            <forename>Jessica</forename>
+            <surname>Lu</surname>
+          </persName>
+          <orgName xml:id="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
+        </author>
+      <respStmt>
+        <resp>Encoded by</resp>
+          <persName xml:id="CRICH">
+            <forename>Courtney</forename>
+            <surname>Richardson</surname>
+          </persName>
+      </respStmt>
+      <respStmt>
+        <resp>Original text transcribed by</resp>
+          <persName ref="#CRICH">
+            <forename>Courtney</forename>
+            <surname>Richardson</surname>
+          </persName>
+        </respStmt>
+      <respStmt>
+        <resp>Original TEI template provided by</resp>
+          <persName xml:id="RAFF">
+            <forename>Raffaele</forename>
+            <surname>Viglianti</surname>
+          </persName>
+          <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+        </respStmt>
+      <funder>
+          <orgName xml:id="MELLON">Andrew W. Mellon Foundation</orgName>
+          <orgName xml:id="FIRE">First-Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+      </funder>
+    </titleStmt>
+    <editionStmt>
+      <edition n="1">First Edition</edition>
+    </editionStmt>
+    <extent>
+      <measure unit="pages" quantity="2">2 pages of original source material</measure>
+    </extent>
+    <publicationStmt>
+      <publisher>
+        <orgName ref="#AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHUM</abbr>) Initiative</orgName>
+      </publisher>
+      <pubPlace>
+        <settlement>College Park</settlement>
+        <region>Maryland (<abbr>MD</abbr>)</region>
+      </pubPlace>
+      <date when="2018-07-09">9 July 2018</date>
+      <availability status="free">
+          <p>In the public domain.</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+        <title type="main">Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re)Making of Black Freedom Online</title>
+        <title type="sub">Natural Hair</title>
+        <respStmt>
+            <resp>Edited by</resp>
+            <persName ref="#JLU">
+              <forename>Jessica</forename>
+              <surname>Lu</surname>
+            </persName>
+        </respStmt>
+        <respStmt>
+            <resp>Texts identified and assembled by</resp>
+            <persName ref="#CRICH">
+              <forename>Courtney</forename>
+              <surname>Richardson</surname>
+            </persName>
+        </respStmt>
+    </seriesStmt>
+    <sourceDesc>
+      <listBibl>
+      <bibl>
+        <title type="main">Original text title, no more than 10 words</title>
+        <title type="sub">Original text subtitle, if applicable</title>
+        <author>
+          <persName xml:id="CREATEONE"> <!-- In the event that the original author's name does not take on a traditional forename-surname form, use <name> instead and provide a comment to indicate what kind of name (e.g. username, handle, alias, etc.) is provided. -->
+            <forename>First name here</forename>
+            <surname>Last name here</surname>
+          </persName>
+        </author>
+        <publisher>
+          <orgName xml:id="CREATEANOTHER">Organization name and abbreviations, as needed</orgName>
+        </publisher>
+        <pubPlace> <!-- In the event of digital publication on a platform/site that could be argued as a "Black place," insert the platform/site name here instead of the usual region, settlement, and country tags. Use a comment to explain why the site/platform should be understood as constituting a "Black place." -->
+          <settlement>City name</settlement>
+          <region>State name and abbreviation, as needed</region>
+          <country>Country name and abbreviation, as needed</country>
+        </pubPlace>
+        <date when="2018-01-01">Original publication date here</date>
+      </bibl>
+      <bibl xml:id="JLUDISS">
+          <title type="main">Reckoning with Freedom</title>
+          <title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+          <author>
+              <persName ref="#JLU">
+                <forename>Jessica</forename>
+                <surname>Lu</surname>
+              </persName>
+          </author>
+          <publisher>
+            <orgName xml:id="UMD">University of Maryland</orgName>
+          </publisher>
+          <pubPlace>
+            <settlement>College Park</settlement>
+            <region>Maryland (<abbr>MD</abbr>)</region>
+            <country>United States of America (<abbr>USA</abbr>)</country>
+          </pubPlace>
+          <date when="2018-06-28">28 June 2018</date>
+      </bibl>
+      <bibl>
+          <interpGrp resp="#LUDISS" type="freedom-ideas">
+              <desc>Ideational analysis of freedom.</desc>
+              <interp xml:id="STRAND1">Strand 1</interp>
+              <interp xml:id="STRAND2">Strand 2</interp>
+              <interp xml:id="STRAND3">Strand 3</interp>
+              <interp xml:id="STRAND4">Strand 4</interp>
+              <interp xml:id="STRAND5">Strand 5</interp>
+          </interpGrp>
+      </bibl>
+      </listBibl>
+      <biblStruct type="article"> <!-- Provided as an example of using the sourceDesc to cite Black scholarship that grounds the encoder's decisions during the markup process. -->
+        <analytic>
+          <author>
+            <persName xml:id="SHART">
+              <forename>Saidiya</forename>
+              <surname>Hartman</surname>
+            </persName>
+          </author>
+          <title>Venus in Two Acts</title>
+        </analytic>
+        <monogr>
+          <title level="j">Small Axe</title>
+          <imprint>
+            <publisher>Duke University Press</publisher>
+            <pubPlace>
+              <settlement>Durham</settlement>
+              <region>North Carolina (<abbr>NC</abbr>)</region>
+              <country>United States of America (<abbr>USA</abbr>)</country>
+            </pubPlace>
+            <date when="2008-06">June 2008</date>
+          </imprint>
+          <biblScope unit="page" from="1" to="14">pp. 1-14</biblScope>
+        </monogr>
+        <note>In this article, Saidiya Hartman theorizes archival violence and its disproportionate impact on the lives of Black women. Hartman argues that archival traces and texts corroborate representations of Black women as always dead or dying, if not in relentless peril. Such violence dehumanizes Black women, not just in the historical record, but also in contemporary life. This theorizing of archival violence contributes to this digital surrogate insofar as every attempt has been made to recognize and amplify the human activities and accomplishments of Black women, with particular attention paid to their life experiences beyond suffering and pain.</note>
+      </biblStruct>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <editorialDecl>
+      <hyphenation eol="none">
+        <p>Except where normalization disrupts the formatting of the digital surrogate when rendered online, all end-of-line hyphenation in the original source material has been reformed. The <gi>choice</gi> element has been used to enclose <gi>orig</gi> and <gi>reg</gi> elements giving the original hyphenation and regularized version, respectively.</p>
+      </hyphenation>
+      <normalization method="markup">
+        <p>All obvious spelling and typographical errors in the original source material is corrected. The <gi>choice</gi> element has been used to enclose <gi>sic</gi> and <gi>corr</gi> elements giving the original error and correction, respectively.</p>
+      </normalization>
+      <normalization method="silent">
+        <p>Whenever necessary, spacing between words and following punctuation has been regularized to zero spaces; spacing between words has been regularized to one space.</p>
+      </normalization>
+      <normalization source="https://www.newyorker.com/magazine/2017/05/15/the-case-for-black-english">
+        <p>Instances of African American Vernacular English have purposefully NOT been adjusted to comply with American English language practices. African American Vernacular English is wholly valid in its form, features, and creativity, despite the dominance and presumed correctness of American English.</p>
+      </normalization>
+      <p>To represent changes and/or corrections made by the original source authors BEFORE the encoding process, encoders use <gi>add</gi>, <gi>del</gi>, and <gi>subst</gi>.</p>
+      <p>Encoding includes the use of <gi>supplied</gi> to provide clarification and supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+    </editorialDecl>
+    <samplingDecl>
+      <p>Use as needed to explain when and why only portions or selections of the original source material are sampled.</p>
+    </samplingDecl>
+    <projectDesc>
+      <p>This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduate students at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson.</p>
+    </projectDesc>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="AAVE">African American Vernacular English</language> <!-- AAVE is purposefully listed first, to visually reinforce its validity alongside Standard American English and primacy among Black Americans. -->
+      <language ident="us-en">Standard American English</language>
+    </langUsage>
+    <particDesc>
+      <listOrg> <!-- Provided to exemplify proper markup form and required elements. -->
+        <org>
+          <orgName ref="#UMD">
+            <name ref="https://lccn.loc.gov/n79054042">University of Maryland, College Park</name>
+            <abbr>UMD</abbr>
+          </orgName>
+          <idno type="LCAF">n 79054042</idno>
+          <placeName>
+            <settlement>College Park</settlement>
+            <region>Maryland (<abbr>MD</abbr>)</region>
+            <country>United States of America (<abbr>USA</abbr>)</country>
+          </placeName>
+          <note>Provide a brief statement that identifies or describes the organization and its relevance to the digital surrogate.</note>
+        </org>
+      </listOrg>
+      <listPerson> <!-- Provided to exemplify proper markup form and required elements. -->
+        <person>
+          <persName xml:id="BEY" ref="https://lccn.loc.gov/no00017294"> <!-- Notice how you can ASSIGN an xml ID within the same tag as a ref, but you cannot REFERENCE a previously assigned xml ID alongside an additional ref. See lines 191 and 192 above. -->
+            <forename>Beyoncé</forename>
+            <surname>Knowles</surname>
+          </persName>
+          <idno type="LCAF">no 00017294</idno>
+          <note>Provide a brief statement that identifies or describes the person, their accomplishments, notable characteristics, and their relevance to the digital surrogate.</note>
+        </person>
+      </listPerson>
+      <personGrp>
+        <persName xml:id="BLK">Black and African American people</persName>
+        <note>The identification and amplification of this person group is necessary for the reading and interpretation of this text, as this text uses "the Negro" to erroneously generalize about all Black and African Americans and/or diminish their status as fully human.</note>
+      </personGrp>
+    </particDesc>
+  </profileDesc>
+  <revisionDesc>
+    <listChange>
+      <change>Identify and explain a substantive change, made on INSERT DATE HERE.</change>
+      <change>Indentify and explain the next substantive change, made on INSERT DATE HERE.</change>
+    </listChange>
+  </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Text body goes here.</p>
+    </body>
+  </text>
+</TEI>
