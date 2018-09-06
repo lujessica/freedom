@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Allure Magazine's Interview with Lupita Nyong'o</title>
+            <title type="sub">Digital Edition</title>
+            <author>
+              <persName xml:id="JLU">
+                <forename>Jessica</forename>
+                <surname>Lu</surname>
+              </persName>
+              <orgName xml:id="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
+            </author>
+            <respStmt>
+              <resp>Encoded by</resp>
+                <persName xml:id="CRICH">
+                  <forename>Courtney</forename>
+                  <surname>Richardson</surname>
+                </persName>
+            </respStmt>
+            <respStmt>
+              <resp>Original text transcribed by</resp>
+                <persName ref="#CRICH">
+                  <forename>Courtney</forename>
+                  <surname>Richardson</surname>
+                </persName>
+            </respStmt>
+            <respStmt>
+              <resp>Original TEI template provided by</resp>
+                <persName xml:id="RAFF">
+                  <forename>Raffaele</forename>
+                  <surname>Viglianti</surname>
+                </persName>
+                <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+            </respStmt>
+            <funder>
+                <orgName xml:id="MELLON">Andrew W. Mellon Foundation</orgName>
+                <orgName xml:id="FIRE">First-Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+           <edition n="1">First Edition</edition>
+         </editionStmt>
+         <extent>
+           <measure unit="lines" quantity="32">32 lines of question and answer conversation of original source material</measure>
+         </extent>
+         <publicationStmt>
+           <publisher>
+             <orgName ref="#AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHUM</abbr>) Initiative</orgName>
+           </publisher>
+           <pubPlace>
+             <settlement>College Park</settlement>
+             <region>Maryland (<abbr>MD</abbr>)</region>
+           </pubPlace>
+           <date when="2018-06-22">June 22, 2018</date>
+           <availability status="free">
+               <p>In the public domain.</p>
+           </availability>
+         </publicationStmt>
+         <seriesStmt>
+           <title type="main">Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re)Making of Black Freedom Online</title>
+           <title type="sub">Natural Hair</title>
+           <respStmt>
+               <resp>Edited by</resp>
+               <persName ref="#JLU">
+                 <forename>Jessica</forename>
+                 <surname>Lu</surname>
+               </persName>
+           </respStmt>
+           <respStmt>
+               <resp>Texts identified and assembled by</resp>
+               <persName ref="#CRICH">
+                 <forename>Courtney</forename>
+                 <surname>Richardson</surname>
+               </persName>
+               <persName xml:id="ALAW">
+                 <forename>Ariana</forename>
+                 <surname>Lawson</surname>
+               </persName>
+           </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+            <bibl>
+              <title type="main">Lupita Nyong'o Opens Up About the Looks She and Her Hairstylist Created</title>
+              <author>
+                <persName xml:id="ML">
+                  <forename>Michelle</forename>
+                  <surname>Lee</surname>
+                </persName>
+              </author>
+              <publisher>
+                <orgName xml:id="ALL">Allure</orgName>
+              </publisher>
+              <pubPlace ref="https://www.allure.com/story/lupita-nyongo-march-2018-cover-story-interview">Allure magazine</pubPlace>
+              <date when="2018-02-12">February 12, 2018</date>
+            </bibl>
+            <bibl xml:id="JLUDISS">
+                <title type="main">Reckoning with Freedom</title>
+                <title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+                <author>
+                    <persName ref="#JLU">
+                      <forename>Jessica</forename>
+                      <surname>Lu</surname>
+                    </persName>
+                </author>
+                <publisher>
+                  <orgName xml:id="UMD">University of Maryland</orgName>
+                </publisher>
+                <pubPlace>
+                  <settlement>College Park</settlement>
+                  <region>Maryland (<abbr>MD</abbr>)</region>
+                  <country>United States of America (<abbr>USA</abbr>)</country>
+                </pubPlace>
+                <date when="2018-06-28">28 June 2018</date>
+            </bibl>
+            <bibl>
+                <interpGrp resp="#LUDISS" type="freedom-ideas">
+                    <desc>Ideational analysis of freedom.</desc>
+                    <interp xml:id="STRAND1">Strand 1</interp>
+                    <interp xml:id="STRAND2">Strand 2</interp>
+                    <interp xml:id="STRAND3">Strand 3</interp>
+                    <interp xml:id="STRAND4">Strand 4</interp>
+                    <interp xml:id="STRAND5">Strand 5</interp>
+                </interpGrp>
+            </bibl>
+            </listBibl>
+            <biblStruct type="article"> <!-- Provided as an example of using the sourceDesc to cite Black scholarship that grounds the encoder's decisions during the markup process. -->
+              <analytic>
+                <author>
+                  <persName xml:id="SHART">
+                    <forename>Saidiya</forename>
+                    <surname>Hartman</surname>
+                  </persName>
+                </author>
+                <title>Venus in Two Acts</title>
+              </analytic>
+              <monogr>
+                <title level="j">Small Axe</title>
+                <imprint>
+                  <publisher>Duke University Press</publisher>
+                  <pubPlace>
+                    <settlement>Durham</settlement>
+                    <region>North Carolina (<abbr>NC</abbr>)</region>
+                    <country>United States of America (<abbr>USA</abbr>)</country>
+                  </pubPlace>
+                  <date when="2008-06">June 2008</date>
+                </imprint>
+                <biblScope unit="page" from="1" to="14">pp. 1-14</biblScope>
+              </monogr>
+              <note>In this article, Saidiya Hartman theorizes archival violence and its disproportionate impact on the lives of Black women. Hartman argues that archival traces and texts corroborate representations of Black women as always dead or dying, if not in relentless peril. Such violence dehumanizes Black women, not just in the historical record, but also in contemporary life. This theorizing of archival violence contributes to this digital surrogate insofar as every attempt has been made to recognize and amplify the human activities and accomplishments of Black women, with particular attention paid to their life experiences beyond suffering and pain.</note>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <editorialDecl>
+          <hyphenation eol="none">
+            <p>Except where normalization disrupts the formatting of the digital surrogate when rendered online, all end-of-line hyphenation in the original source material has been reformed. The <gi>choice</gi> element has been used to enclose <gi>orig</gi> and <gi>reg</gi> elements giving the original hyphenation and regularized version, respectively.</p>
+          </hyphenation>
+          <normalization method="markup">
+            <p>All obvious spelling and typographical errors in the original source material is corrected. The <gi>choice</gi> element has been used to enclose <gi>sic</gi> and <gi>corr</gi> elements giving the original error and correction, respectively.</p>
+          </normalization>
+          <normalization method="silent">
+            <p>Whenever necessary, spacing between words and following punctuation has been regularized to zero spaces; spacing between words has been regularized to one space.</p>
+          </normalization>
+          <normalization source="https://www.newyorker.com/magazine/2017/05/15/the-case-for-black-english">
+            <p>Instances of African American Vernacular English have purposefully NOT been adjusted to comply with American English language practices. African American Vernacular English is wholly valid in its form, features, and creativity, despite the dominance and presumed correctness of American English.</p>
+          </normalization>
+          <p>To represent changes and/or corrections made by the original source authors BEFORE the encoding process, encoders use <gi>add</gi>, <gi>del</gi>, and <gi>subst</gi>.</p>
+          <p>Encoding includes the use of <gi>supplied</gi> to provide clarification and supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+        </editorialDecl>
+        <samplingDecl>
+          <p>Use as needed to explain when and why only portions or selections of the original source material are sampled.</p>
+        </samplingDecl>
+        <projectDesc>
+          <p>This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduate students at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson.</p>
+        </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+        <langUsage>
+          <language ident="AAVE">African American Vernacular English</language> <!-- AAVE is purposefully listed first, to visually reinforce its validity alongside Standard American English and primacy among Black Americans. -->
+          <language ident="us-en">Standard American English</language>
+        </langUsage>
+        <particDesc>
+          <listOrg> <!-- Provided to exemplify proper markup form and required elements. -->
+            <org>
+              <orgName ref="#ALL">
+                <name ref="http://www.condenast.com/brands/allure/">Allure</name>
+              </orgName>
+              <note>Allure is a media website and magazine brand that specializes in beauty. Allure interviews Lupita Nyong'o about her natural hair throughout her life before and during her career. </note>
+            </org>
+          </listOrg>
+          <listPerson> <!-- Provided to exemplify proper markup form and required elements. -->
+            <person>
+              <persName xml:id="LN" ref="http://id.loc.gov/authorities/names/no200910774">
+                <forename>Lupita</forename>
+                <surname>Nyong'o</surname>
+              </persName>
+              <idno type="LCAF">no 200910774</idno>
+              <note>Lupita Nyong'o is a Kenyan-Mexican actress who is best known for her roles in Black Panther, 12 Years a Slave, and Star Wars. Nyong'o also frequently wears her natural hair on screen and at Hollywood events.</note>
+            </person>
+          </listPerson>
+          <personGrp>
+            <persName xml:id="BLK">Black and African American people</persName>
+            <note>The identification and amplification of this person group is necessary for the reading and interpretation of this text, as this text uses "the Negro" to erroneously generalize about all Black and African Americans and/or diminish their status as fully human.</note>
+          </personGrp>
+        </particDesc>
+      </profileDesc>
+      <revisionDesc>
+        <listChange>
+          <change>Identify and explain a substantive change, made on INSERT DATE HERE.</change>
+          <change>Indentify and explain the next substantive change, made on INSERT DATE HERE.</change>
+        </listChange>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+        <div type="Allure">
+          <p><orgName ref="#ALL">ALLURE</orgName>: How did you feel about your hair when you were growing up?</p>
+        </div>
+        <div type="Lupita-Nyong'o">
+          <p><persName ref="#LN">LUPITA NYONG’O</persName>: Well, I didn’t love my hair when I was a child. It was lighter than my skin, which made me not love it so much. I was really kind of envious of girls with thicker, longer, more lush hair. In my tween years, I started begging my mother to have my hair relaxed. She wouldn’t allow it, though her hair was relaxed. She felt that that was a decision I could come to when I was maybe 18. Around 13 or 14, I had such a rough time with being teased and feeling really unpretty. My dad intervened and spoke to my mom about my hair, and she finally agreed. She took me to the salon in the middle of the school day, and I got my hair relaxed. I felt so much better because it was easier to tame. All the girls in my class had their hair relaxed. Very few had natural kink, so I felt a lot more acceptable.</p>
+          <p>I had my hair relaxed for most of my teenage years, and that was a whole other world. The upkeep of relaxed hair is a commitment. It took styling it once a week and then having it retouched once a month. I remember doing crazy things, like sleeping with my head above the headboard so that my curls wouldn’t get messed up for the next day. I’d have these terrible neck aches because I was determined to keep my hair as pristine as possible. And it was super expensive. When I was about 18 or 19, I didn’t have a job or anything, so it was really my parents paying for my hair. So I was once asking for some more money to get my hair done and my dad joked, “Why don’t you just cut it all off?” And a few months later, I thought to myself, Why don’t I? I went into the hair salon, and I said, “Let’s cut it off.” It was almost a dare to myself: Can I live without hair? He shaved it right off. It was so scary but so liberating because I went completely bald.</p>
+        </div>
+        <div type="Allure">
+          <p><orgName ref="#ALL">ALLURE</orgName>: Did your mother know you were going to do it?</p>
+        </div>
+        <div type="Lupita-Nyong'o">
+          <p><persName ref="LN">LN</persName>: No, I didn’t tell anybody except for my hairdresser. When I got home, my mother was horrified. She was just like, “What have you done to my hair?” I remember her saying that: “I’ve been growing that hair since you were born — how can you?” Then I felt really self-conscious. It was hard to see the horror on my mother’s face. She was so disapproving, and I was so sensitive about it at the time, that I started to get scared that I had done the wrong thing. And it was cold. All of a sudden I would feel really cold on my head, and I didn’t have hats or the right headwear for a bald head. Eventually my mom came around. I remember once when I was dressed up for church, she actually said, with a very quick mouth, “You look nice.”</p>
+        </div>
+        <div type="Allure">
+          <p><orgName ref="#ALL">ALLURE</orgName>: Aw, that’s nice.</p>
+        </div>
+        <div type="Lupita-Nyong'o">
+          <p><persName ref="LN">LN</persName>: That was so good to hear. It took my dad probably two weeks to notice I had no hair! At breakfast, he looked up and said, “Hey, where is your hair?” I said, “You said I should cut it.” He just burst out laughing. He was like, “I didn’t mean take it all off.” We had a good laugh about it. That was definitely a liberating stage. I had nothing to hide behind. I had my hair short for a very long time after that.</p>
+        </div>
+        <div type="Allure">
+          <p><orgName ref="#ALL">ALLURE</orgName>: Then you came to <placeName>the States</placeName> for school....</p>
+        </div>
+        <div type="Lupita-Nyong'o">
+          <p><persName ref="LN">LN</persName>: Moving to the <placeName>U.S.</placeName> was very difficult because I didn’t have the same kind of support system. [Braiding] services were not readily available in <placeName><settlement>Amherst</settlement></placeName>, <placeName><region>Massachusetts</region></placeName>. For a long time I would braid my hair in <placeName>Kenya</placeName> and then spend months with the braids in when I got to the States so that I didn’t have to worry about my hair. Also, my hair did something very different in freezing weather, which I didn’t know how to handle. My hair needs moisture. It needs warmth. All of a sudden I was in this very cold environment, and my hair was bristly and dry and really hard to manage. One of the summers I went back home, I asked my aunt to teach me how to braid hair because I wanted to be able to do my own hair. I worked in her salon, and she taught me cornrowing, and twisting and plaiting.</p>
+        </div>
+        <div type="Allure">
+          <p><orgName ref="#ALL">ALLURE</orgName>: And you’re growing it now?</p>
+        </div>
+        <div type="Lupita-Nyong'o">
+          <p><persName ref="LN">LN</persName>: My hair is the longest it’s been in over a decade. A lot of that is because I have an amazing hairstylist in <persName xml:id="VF">Vernon François</persName>. He’s been so helpful, helping me learn how to maintain my natural hair texture. Also giving me regimens that are streamlined because part of the challenge is all the steps. You go on <orgName>YouTube</orgName>, and there are just so many different ways of upkeep of one’s natural hair. It’s honey and rosemary water and avocado-paste conditioning and whatnot. I’ve tried it all. Now I love my hair. I love it because I’ve also been able to really embrace the stuff it can do. It’s like clay in the right hands. Clay can be dirt in the wrong hands, but clay can be art in the right hands. Being able to have that kind of playtime with <persName ref="#VF">Vernon</persName> to create different things has inspired me.</p>
+          <p>Even in Kenya — you’d think we are predominantly African and black out there — but when I finally had my hair natural, the hairstylist that I had been going to for so long with my relaxed hair didn’t know what to do with my natural hair and just kept offering me different chemicals to put in it. In the end I was like, “Why don’t you know?” And he was like, “We don’t learn how to do natural hair in school.” That baffled me. I just felt it was so unacceptable. So I couldn’t really learn what was good for my hair until I left, which is bizarre. Now, of course, things have really changed.</p>
+        </div>
+        <div type="Allure">
+          <p><orgName ref="#ALL">ALLURE</orgName>: Do you notice that change happening at the same time in Kenya and also the U.S.?</p>
+        </div>
+        <div type="Lupita-Nyong'o">
+          <p><persName ref="LN">LN</persName>: Well, I think America is definitely the dominant popular culture. I remember my aunties were locking their hair when I was growing up. One of my aunties started locking her hair when I was younger than 10, and everyone was so scandalized by it.</p>
+        </div>
+        <div type="Allure">
+          <p><orgName ref="#ALL">ALLURE</orgName>: I know you lived in <placeName>Mexico</placeName> for a while. Did you find the beauty standards there to be different?</p>
+        </div>
+        <div type="Lupita-Nyong'o">
+          <p><persName ref="LN">LN</persName>: Oh, yeah, the beauty standards had nothing to do with me in Mexico. It was such a bizarre, dire time for my hair. I was living in a small town where there was not any semblance of an African community. I’d have to take the bus to Mexico City to find a woman who could braid my hair. That was two and a half hours away.</p>
+        </div>
+        <div type="Allure">
+          <p><orgName ref="#ALL">ALLURE</orgName>: Once you started working, did you ever feel pressure to change your hair, either for an audition or for a role?</p>
+        </div>
+        <div type="Lupita-Nyong'o">
+          <p><persName ref="LN">LN</persName>: Well, you know, the beginning of my career was so different than most. I didn’t really do a whole lot of the auditioning thing. I booked 12 Years a Slave before I graduated. So I already had that under my belt by the time I got to New York. Also, for auditions, I really do think about the character. There are going to be characters that have relaxed hair or whatever different hairstyles.</p>
+        </div>
+        <div type="Allure">
+          <p><orgName ref="#ALL">ALLURE</orgName>: What are your go-to products?</p>
+        </div>
+        <div type="Lupita-Nyong'o">
+          <p><persName ref="LN">LN</persName>: Fortunately for me, Vernon has his own line, so that’s very, very helpful. I cannot live without his Pure-Fro Moisture Spray ($26) — [it] adds moisture to my hair, which loosens the curl — or his Scalp Nourishment Braids and Locs Spray ($24). Also he has this Mist-Nourishing Water ($18). One thing I’ve learned was the acronym LOC, and that’s basically the rule for how to treat my hair: liquid, oil, and then cream. It’s the idea that you wet your hair first, then you add oil so that it can trap the moisture in, then you put a moisturizer or a cream over it. And also shea butter, natural shea butter — no perfumes, no bleaches — which doesn’t smell great at all, but it does wonders to my hair.</p>
+        </div>
+        <div type="Allure">
+          <p><orgName ref="#ALL">ALLURE</orgName>: We’ve had a lot of conversations here about language, for example people using the terms “kinky,” “curly,” “natural,” “black hair,” and “African-American hair.”</p>
+        </div>
+        <div type="Lupita-Nyong'o">
+          <p><persName ref="LN">LN</persName>: Well, I’m not an authority on this. But the term “African-American hair” is inaccurate because I’m not African-American. And I think the term “African-American” is often used as a racial term when it’s a cultural group that does not encompass every single person of African descent. So there’s that. So when you say “African-American,” you’re not actually addressing what you think you’re addressing. That’s a national identification, and it cannot be about the hair. I like the term “kinky.” Some people don’t like that term, but when I think about my hair, I think of it as African kinky hair. But I’m not really in deep with the politics of it all and the language choice. I speak just from my own experience or my own preference. Curly hair differs so much.</p>
+        </div>
+        <div type="Allure">
+          <p><orgName ref="#ALL">ALLURE</orgName>: The subject of identity is such a big one these days. I sometimes get asked, “What are you?” when people want to know my ethnicity. How do you self-identify?</p>
+        </div>
+        <div type="Lupita-Nyong'o">
+          <p><persName ref="LN">LN</persName>: I find that people would ask, “What are you?” and that means what tribe are you, you know, what ethnic group. That’s the only time I hear the words “What are you” in a Kenyan context. But outside of Kenya, when people ask me where I’m from, I say, “I’m from Kenya.” That’s how I identify, unless ethnicity becomes more of a thing, and then I would say I’m <orgName>Luo</orgName>, which is my ethnic group.</p>
+        </div>
+        <div type="Allure">
+          <p><orgName ref="#ALL">ALLURE</orgName>: OK, let’s talk a little bit about <name type="movie-name">Black Panther</name>. When you were working on the movie, did you sense that everybody knew this would be a history-making movie?</p>
+        </div>
+        <div type="Lupita-Nyong'o">
+          <p><persName ref="LN">LN</persName>: Yes. When [director] <persName xml:id="RC">Ryan [Coogler]</persName> approached me to be in it, he walked me through what he was thinking the story would be about. I remember him finishing his spiel and me being like, “And this is a Marvel movie?” And him being like, “Yeah.” And I was like, “And they said you could make this? Have they green-lighted this idea of yours?” And he was like, “Yeah, I can’t believe it.” And I was like, “Whoa, that is next level.” On set, it was just such an inspirational experience because so much thought was put into this film, and every single aspect of it was rich and beautiful and just arresting, actually. To see this aspirational African world that actually becomes an example for the whole wide world was spellbinding. We were all very much aware that we were in something extremely special.</p>
+        </div>
+        <div type="Allure">
+          <p><orgName ref="#ALL">ALLURE</orgName>: You’re in massive blockbusters — Star Wars and now a <orgName>Marvel</orgName> movie. Has fame changed you at all?</p>
+        </div>
+        <div type="Lupita-Nyong'o">
+          <p><persName ref="LN">LN</persName>: Well, I have to be just more cautious in public spaces. That’s a big change. What fame does is there is an illusion of familiarity that is cast into the world. So it’s about negotiating with that illusion because oftentimes you encounter people who have encountered you, but you haven’t encountered them. It’s a little weird to find your footing. I have to be aware of that possibility, not imprisoned by it. It’s like, how do I find freedom within that awareness?</p>
+        </div>
+        <div type="Allure">
+          <p><orgName ref="#ALL">ALLURE</orgName>: In the past year, everyone has become obsessed with politics. Are you constantly keeping up with the news?</p>
+        </div>
+        <div type="Lupita-Nyong'o">
+          <p><persName ref="LN">LN</persName>: It’s such a weird time because the news cycles can be so demoralizing. There are just so many opportunities to feel helpless when you keep up with what’s happening, a kind of helplessness that can make you kind of numb. I try hard not to get numb because in numbness you’re passive, and then things can happen that end up being dangerous to you and your community.</p>
+        </div>
+        <div type="Allure">
+          <p><orgName ref="#ALL">ALLURE</orgName>: Would you ever consider going into politics yourself?</p>
+        </div>
+        <div type="Lupita-Nyong'o">
+          <p><persName ref="LN">LN</persName>: No. That is definitive. You can put that on paper.</p>
+        </div>
+        <div type="Allure">
+          <p><orgName ref="#ALL">ALLURE</orgName>: OK, so if not in politics, how do you want to live out your days? What does your perfect day look like?</p>
+        </div>
+        <div type="Lupita-Nyong'o">
+          <p><persName ref="LN">LN</persName>: My perfect day is waking up before anyone else and having time by myself to write, read, and get a head start on the day. It’s walking along the beach, seeing the sunrise, and then having a lovely home-cooked breakfast. It’s being with my siblings — actually, my extended family — for a big, fat lunch. And then spending time with my friends, talking. Actually, painting nails.</p>
+        </div>
+      </body>
+  </text>
+</TEI>

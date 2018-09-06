@@ -5,7 +5,7 @@
   <teiHeader>
       <fileDesc>
       <titleStmt>
-        <title type="main">Zendaya's powerful Twitter response to ignorant comment regarding Oscar's hairstyle</title>
+        <title type="main">Neal Farinah's Instagram Posts About Beyonce's Natural Hair</title>
         <title type="sub">Digital Edition</title>
         <author>
           <persName xml:id="JLU">
@@ -20,20 +20,12 @@
             <forename>Courtney</forename>
             <surname>Richardson</surname>
           </persName>
-          <persName xml:id="ALAW">
-            <forename>Ariana</forename>
-            <surname>Lawson</surname>
-          </persName>
       </respStmt>
       <respStmt>
         <resp>Original text transcribed by</resp>
           <persName ref="#CRICH">
             <forename>Courtney</forename>
             <surname>Richardson</surname>
-          </persName>
-          <persName ref="#ALAW">
-            <forename>Ariana</forename>
-            <surname>Lawson</surname>
           </persName>
         </respStmt>
       <respStmt>
@@ -53,7 +45,7 @@
       <edition n="1">First Edition</edition>
     </editionStmt>
     <extent>
-      <measure unit="pages" quantity="1">1 page of original source material</measure>
+      <measure unit="posts" quantity="5">5 instagram posts of original source material</measure>
     </extent>
     <publicationStmt>
       <publisher>
@@ -63,7 +55,7 @@
         <settlement>College Park</settlement>
         <region>Maryland (<abbr>MD</abbr>)</region>
       </pubPlace>
-      <date when="2018-04-08">April 8, 2018</date>
+      <date when="2018-07-09">9 July 2018</date>
       <availability status="free">
           <p>In the public domain.</p>
       </availability>
@@ -84,7 +76,7 @@
               <forename>Courtney</forename>
               <surname>Richardson</surname>
             </persName>
-            <persName ref="#ALAW">
+            <persName xml:id="ALAW">
               <forename>Ariana</forename>
               <surname>Lawson</surname>
             </persName>
@@ -93,19 +85,20 @@
     <sourceDesc>
       <listBibl>
       <bibl>
-        <title type="main">Zendaya's Tweet</title>
+        <title type="main">Neal Farinah's Instagram posts</title>
         <author>
-          <persName xml:id="ZC">
-            <forename>Zendaya</forename>
-            <surname>Coleman</surname>
+          <persName xml:id="NF">
+            <forename>Neal</forename>
+            <surname>Farinah</surname>
+            <name type="username" ref="https://www.instagram.com/nealfarinah/">@nealfarinah</name>
           </persName>
         </author>
         <publisher>
-          <orgName xml:id="TWITTER">Twitter</orgName>
+          <orgName xml:id="INSTA">Instagram</orgName>
         </publisher>
-        <pubPlace ref="#TWITTER">Twitter</pubPlace><!-- I decided to encode twitter as a place because Twitter has become a place for black individuals to engage in a digital space freely without policing from an outside group. -->
-        <date when="2015-02-24">February 24, 2015</date>
-        <note><figure><graphic url="https://twitter.com/Zendaya/status/570075725765541888"/><figDesc>This is the screenshot that Zendaya posted on her Twitter account as her response to an ignorant statement regarding her hair. </figDesc></figure></note>
+        <pubPlace ref="#INSTA">Instagram</pubPlace><!-- Instagram is encoded as a place because it is a digital space where users can post pictures and videos and engage with other users with policing of another group. -->
+        <date when="2018-08-06">August 6, 2018</date>
+        <date when="2018-08-07">August 7, 2018</date>
       </bibl>
       <bibl xml:id="JLUDISS">
           <title type="main">Reckoning with Freedom</title>
@@ -194,81 +187,42 @@
       <language ident="us-en">Standard American English</language>
     </langUsage>
     <particDesc>
-      <listOrg> <!-- Provided to exemplify proper markup form and required elements. -->
+      <listOrg>
         <org>
-          <orgName ref="#TWITTER">
-            <name ref="http://id.loc.gov/authorities/names/n2009031956">Twitter</name>
+          <orgName ref="#INSTA">
+            <name ref="http://id.loc.gov/authorities/names/n2013014508">Instagram</name>
           </orgName>
-          <idno type="LCAF">n 2009031956</idno>
+          <idno type="LCAF">n 2013014508</idno>
           <placeName>
             <settlement>San Francisco</settlement>
             <region>California (<abbr>CA</abbr>)</region>
             <country>United States of America (<abbr>USA</abbr>)</country>
           </placeName>
-          <note>Twitter is a social networking website and app where users post and engage with tweets. Black people on Twitter have created the digital space, "Black Twitter," where participants engage with culturally similar users within the larger Twitter "world."</note>
+          <note>Instagram is a social media website where users can post videos and pictures where followers can engage with posts by using like and comment functions.</note>
+        </org>
+        <org>
+          <orgName xml:id="VOGUE">Vogue</orgName>
+          <placeName>
+            <country>United States of America (<abbr>USA</abbr>)</country>
+          </placeName>
+          <note>Vogue is a fashion magazine that features several celebrites on the cover. The September issue in the fashion world because it notes which styles are deemed "in," which makes featuring a Black women on the cover monumental. </note>
         </org>
       </listOrg>
-      <listPerson> <!-- Provided to exemplify proper markup form and required elements. -->
+      <listPerson>
         <person>
-          <persName ref="#ZC">
-            <name ref="https://lccn.loc.gov/no2011134244"></name>
-            <forename>Zendaya</forename>
-            <surname>Coleman</surname>
+          <persName ref="#NF">
+            <forename>Neal</forename>
+            <surname>Farinah</surname>
           </persName>
-          <idno type="LCAF">no 2011134244</idno>
-          <note>Zendaya is a singer, actor, content creator and advocate who often uses her platform to spread positivity, and to amplify other voices. </note>
+          <note>Neal Farinah is Beyonce's hair stylist of 13 years. He has created several of Beyoncé's most notable looks, including her 2018 Vogue cover whichh features Beyoncé's natural hair.</note>
         </person>
         <person>
-          <persName xml:id="ADV" ref="https://lccn.loc.gov/no2011127416">
-            <forename>Ava</forename>
-            <surname>DuVernay</surname>
+          <persName xml:id="BEY" ref="https://lccn.loc.gov/no00017294">
+            <forename>Beyoncé</forename>
+            <surname>Knowles</surname>
           </persName>
-          <idno type="LCAF">no 2011127416</idno>
-          <note>Ava DuVernay is a film writer, producer, and director who has worked on several films and TV shows including Selma, Queen Sugar, and A Wrinkle in Time.</note>
-        </person>
-        <person>
-          <persName xml:id="LED" ref="https://lccn.loc.gov/no2002052001">
-            <forename>Ledisi</forename>
-            <surname>Young</surname>
-            <roleName type="stage-name">Ledisi</roleName>
-          </persName>
-          <idno type="LCAF">no 2002052001</idno>
-          <note>Ledisi is an R&amp;B/Jazz artist who has been nominated for 12 Grammys.</note>
-        </person>
-        <person>
-          <persName xml:id="TMM" ref="https://lccn.loc.gov/n86098656">
-            <forename>Terry</forename>
-            <surname>McMillan</surname>
-          </persName>
-          <idno type="LCAF">n 86098656</idno>
-          <note>Terry McMillan is a New York Times best selling author of several works with female leads.</note>
-        </person>
-        <person>
-          <persName xml:id="VBR" ref="https://lccn.loc.gov/n2007043780">
-            <forename>Vincent</forename>
-            <surname>Brown</surname>
-          </persName>
-          <idno type="LCAF">n 2007043780</idno>
-          <note>At Harvard University, Vincent Brown is Charles Warren Professor of History, Director of the History Design Studio, and Professor of African and Afircan American Studies.</note>
-        </person>
-        <person>
-          <persName xml:id="HAW" ref="https://lccn.loc.gov/n2004036365">
-            <forename type="first">Heather</forename>
-            <forename type="middle">Andrea</forename>
-            <surname>Williams</surname>
-          </persName>
-          <idno type="LCAF">n 2004036365</idno>
-          <note>Heather Andrea Williams is the Presidential Professor of Africa Studies at the University of Pennsylvania. Heather A. Williams is also an author and has worked as the Assistant Attorney General and at the U.S. Justice Department's CIvil Rights Division.</note>
-        </person>
-        <person>
-          <persName xml:id="IA" ref="https://lccn.loc.gov/no2001097196">
-            <forename type="first">India</forename>
-            <forename type="middle">Arie</forename>
-            <surname>Simpson</surname>
-            <roleName type="stage-name">India.Arie</roleName>
-          </persName>
-          <idno type="LCAF">no 2001097196</idno>
-          <note>India.Arie is a Grammy award winning singer-songwriter, who has sold millions of records.</note>
+          <idno type="LCAF">no 00017294</idno>
+          <note>Beyoncé one of the world's most iconic singers, songwriters, and dancers. She is also involving in social justice movements through her musical performances and style.</note>
         </person>
       </listPerson>
       <personGrp>
@@ -286,30 +240,21 @@
   </teiHeader>
   <text>
     <body>
-      <p>
-        There is a fine line between what is funny and disrespectful. <choice><orig>Someone</orig><supplied><persName xml:id="GRC">(Giuliana Rancic)</persName></supplied></choice> said <lb/>
-        something about my hair <add source="https://bglh-marketplace.com/2015/02/zendaya-coleman-insulted-over-faux-locs-natural-hair-style-at-the-oscars/">This is a link to a blog with a picture of Zendaya's hairstyle.</add> at the Oscars that left me in awe. Not because I was <lb/> <!-- I decided to put a link to an article that includes a photo of Zendaya's hair to clarify the style Zendaya is talking about. I decided to use this particular website because this is a blog (BGLH) run by a black woman which was mentioned in one of our past readings by Catherine Knight Steele.-->
-        relishing in rave outfit reviews, but because I was hit with ignorant slurs and pure <lb/>
-        disrespect. To say that an 18 year old young woman with <choice><orig><abbr>locs</abbr></orig><reg>(dreadlocks)</reg></choice> must smell of <lb/>
-        patchouli oil or “weed” is not only a large stereotype but outrageously offensive. <lb/>
-        I don’t usually feel the need to respond to negative things but certain remarks cannot <lb/>
-        go unchecked. I’ll have you know my father, brother, best childhood friend and <lb/>
-        little cousins all have have locs. Do you want to know what <persName ref="#ADV">Ava DuVernay</persName> <lb/>
-        (director of the Oscar nominated film Selma), <persName ref="#LED">Ledisi</persName> (9 time Grammy nominated <lb/>
-        singer/songwriter and actress), <persName ref="#TMM">Terry McMillan</persName> (author), <persName ref="#VBR">Vincent Brown</persName> (Professor <lb/>
-        of African and African American studies at <orgName>Harvard University</orgName>), <persName ref="#HAW">Heather Andrea <lb/>
-        Williams</persName> (Historian who also possesses a JD from <orgName>Harvard University</orgName>, and an MA <lb/>
-        and PhD from <orgName>Yale University</orgName>) as well as many other men <choice><orig>woman</orig><corr>(women)</corr></choice> and children of <lb/>
-        all races have in common? Locs. None of which smell of <choice><orig>marajuana</orig><corr>(marijuana)</corr></choice>. There is <lb/>
-        already harsh criticism of African American hair in society without the help of <lb/>
-        ignorant people who choose to judge others based on the curl of their hair. <seg type="natural-hair">My <lb/><!-- This is an example of freedom language because Zendaya is using her hairstyle as a method of liberation in the sense that black hair is often seen in a negative light, and by wearing locs to such a prestigious event, Zendaya is liberating herself and others of sociwties perception of good hair. -->
-        wearing my hair in locs on an Oscar red carpet was to showcase them in a positive <lb/>
-        light, to remind people of color that our hair is good enough.</seg> <seg type="natural-hair">To me locs are a <lb/>
-        symbol of strength and beauty, almost like a lion’s mane.</seg> I suggest some people <lb/>
-        should listen to <persName ref="#IA">India Arie’s</persName> <seg source="https://genius.com/Indiaarie-i-am-not-my-hair-lyrics">“I Am Not My Hair”</seg> and contemplate a little before <lb/> <!-- I decided to include the lyrics to this song as a reference becuase this song is about how African American women are more than their hair which is the center of Zendaya's response. Also, including the lyrics to this song amplifies the work done by India.Arie, a black female recording artist.   -->
-        opening your mouth so quickly to judge. <lb/>
-        -<persName ref="#ZC">Zendaya Coleman</persName> <lb/>
-      </p>
+      <div type="fisrt-post">
+        <p><persName ref="#NF">I’M</persName> GOING TO SAY IT ONE MORE TIME; IT’S ALL NATURAL CURLY HAIR, <choice><abbr>U</abbr><reg>YOU</reg></choice> <choice><orig>HEARDDDD</orig><corr>HEARD</corr></choice> 😉 <orgName ref="#VOGUE">@vogue</orgName> #hairstylist #nealfarinahsalon #nealfarinahinc</p>
+      </div>
+      <div type="second-post">
+        <p>SO MANY TIMES ONE IS JUDGED BY THEIR HAIR TEXTURE OR SKIN COLOR. I’M SO PROUD AND HONORED TO HAVE BEEN A PART OF SUCH AN <choice><orig>AMZING</orig><corr>AMAZING</corr></choice> SHOOT, BRAIDING THE QUEENS ALL NATURAL CURLY HAIR! NOW WHAT?! <orgName ref="#VOGUE">@voguemagazine</orgName> <persName ref="#BEY">#@beyonce</persName> #hairstylist #nealfarinahsalon #nealfarinahinc @nakiarachon Thank u for the extra hand 🤚</p>
+      </div>
+      <div type="third-post">
+        <p><persName ref="#BEY">BEYONCE</persName> ROCKING ALL NATURAL CURLY HAIR IN A BRAIDED HAIR STYLE #ontrend <choice><orig>voguemagazine</orig><corr>#voguemagazine></corr></choice> #hairstylist #nealfarinahinc #nealfarinahsalon</p>
+      </div>
+      <div type="fourth-post">
+        <p>I’M HAVING THE BEST HAIR LIFE AMAZING <orgName ref="#VOGUE">VOGUE</orgName> COVER. AN AMAZING TOUR OTRII IM SO PROUD TO BE THAT HAIR STYLIST🙏🏽 #hairstylist #nealfarinahsalon #nealfarinahinc #videographer @benrealvsworld</p>
+      </div>
+      <div type="fifth-post">
+        <p>I’M SO HONORED TO BE APART OF THIS LEGENDARY COVER SHOOT <orgName ref="#VOGUE">VOGUE</orgName> <persName ref="#BEY">@beyonce</persName> <orgName ref="#VOGUE">@voguemagazine</orgName> #hairstylist #nealfarinahsalon #nealfarinahinc @nakiarachon</p>
+      </div>
     </body>
   </text>
 </TEI>

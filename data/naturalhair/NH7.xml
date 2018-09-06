@@ -5,7 +5,7 @@
   <teiHeader>
       <fileDesc>
       <titleStmt>
-        <title type="main">Zendaya's powerful Twitter response to ignorant comment regarding Oscar's hairstyle</title>
+        <title type="main">History of Black Hair</title>
         <title type="sub">Digital Edition</title>
         <author>
           <persName xml:id="JLU">
@@ -20,20 +20,12 @@
             <forename>Courtney</forename>
             <surname>Richardson</surname>
           </persName>
-          <persName xml:id="ALAW">
-            <forename>Ariana</forename>
-            <surname>Lawson</surname>
-          </persName>
       </respStmt>
       <respStmt>
         <resp>Original text transcribed by</resp>
           <persName ref="#CRICH">
             <forename>Courtney</forename>
             <surname>Richardson</surname>
-          </persName>
-          <persName ref="#ALAW">
-            <forename>Ariana</forename>
-            <surname>Lawson</surname>
           </persName>
         </respStmt>
       <respStmt>
@@ -53,7 +45,7 @@
       <edition n="1">First Edition</edition>
     </editionStmt>
     <extent>
-      <measure unit="pages" quantity="1">1 page of original source material</measure>
+      <measure unit="minutes" quantity="4">4 minutes of original video source material from article</measure>
     </extent>
     <publicationStmt>
       <publisher>
@@ -63,7 +55,7 @@
         <settlement>College Park</settlement>
         <region>Maryland (<abbr>MD</abbr>)</region>
       </pubPlace>
-      <date when="2018-04-08">April 8, 2018</date>
+      <date when="2018-07-09">9 July 2018</date>
       <availability status="free">
           <p>In the public domain.</p>
       </availability>
@@ -84,7 +76,7 @@
               <forename>Courtney</forename>
               <surname>Richardson</surname>
             </persName>
-            <persName ref="#ALAW">
+            <persName xml:id="ALAW">
               <forename>Ariana</forename>
               <surname>Lawson</surname>
             </persName>
@@ -93,19 +85,18 @@
     <sourceDesc>
       <listBibl>
       <bibl>
-        <title type="main">Zendaya's Tweet</title>
+        <title type="main">100 Years of Black Hair</title>
         <author>
-          <persName xml:id="ZC">
-            <forename>Zendaya</forename>
-            <surname>Coleman</surname>
+          <persName xml:id="CREATEONE"> <!-- In the event that the original author's name does not take on a traditional forename-surname form, use <name> instead and provide a comment to indicate what kind of name (e.g. username, handle, alias, etc.) is provided. -->
+            <forename>First name here</forename>
+            <surname>Last name here</surname>
           </persName>
         </author>
         <publisher>
-          <orgName xml:id="TWITTER">Twitter</orgName>
+          <orgName xml:id="ALL">Allure</orgName>
         </publisher>
-        <pubPlace ref="#TWITTER">Twitter</pubPlace><!-- I decided to encode twitter as a place because Twitter has become a place for black individuals to engage in a digital space freely without policing from an outside group. -->
-        <date when="2015-02-24">February 24, 2015</date>
-        <note><figure><graphic url="https://twitter.com/Zendaya/status/570075725765541888"/><figDesc>This is the screenshot that Zendaya posted on her Twitter account as her response to an ignorant statement regarding her hair. </figDesc></figure></note>
+        <pubPlace ref="https://www.youtube.com/watch?v=4vd-AP_q2r4">YouTube</pubPlace><!-- YouTube is considered a "Black Place" because creators can make their own original content and upload it for the viewers to see without policing from other groups of people.  -->
+        <date when="2017-09-14">September 14, 2017</date>
       </bibl>
       <bibl xml:id="JLUDISS">
           <title type="main">Reckoning with Freedom</title>
@@ -137,7 +128,7 @@
           </interpGrp>
       </bibl>
       </listBibl>
-      <biblStruct type="article"> <!-- Provided as an example of using the sourceDesc to cite Black scholarship that grounds the encoder's decisions during the markup process. -->
+      <biblStruct type="article">
         <analytic>
           <author>
             <persName xml:id="SHART">
@@ -196,79 +187,29 @@
     <particDesc>
       <listOrg> <!-- Provided to exemplify proper markup form and required elements. -->
         <org>
-          <orgName ref="#TWITTER">
-            <name ref="http://id.loc.gov/authorities/names/n2009031956">Twitter</name>
+          <orgName ref="#ALL">
+            <name ref="http://www.condenast.com/brands/allure/">Allure Magazine</name>
           </orgName>
-          <idno type="LCAF">n 2009031956</idno>
+          <note>Allure is a beauty brand magazine and website, and the creator of the "100 Years of Black Hair" video</note>
+        </org>
+        <org>
+          <orgName xml:id="YT" ref="http://id.loc.gov/authorities/names/n2007018166">YouTube</orgName>
+          <idno type="LCAF">n2007018166</idno>
           <placeName>
-            <settlement>San Francisco</settlement>
+            <settlement>San Bruno</settlement>
             <region>California (<abbr>CA</abbr>)</region>
             <country>United States of America (<abbr>USA</abbr>)</country>
           </placeName>
-          <note>Twitter is a social networking website and app where users post and engage with tweets. Black people on Twitter have created the digital space, "Black Twitter," where participants engage with culturally similar users within the larger Twitter "world."</note>
+          <note>Youtube is a website where content creators upload videos. Allure's 100 Year's of Black Hair video was uploaded here and was viewed over 1.5 million times.</note>
         </org>
       </listOrg>
       <listPerson> <!-- Provided to exemplify proper markup form and required elements. -->
         <person>
-          <persName ref="#ZC">
-            <name ref="https://lccn.loc.gov/no2011134244"></name>
-            <forename>Zendaya</forename>
-            <surname>Coleman</surname>
+          <persName xml:id="JF">
+            <forename>Jihan</forename>
+            <surname>Forbes</surname>
           </persName>
-          <idno type="LCAF">no 2011134244</idno>
-          <note>Zendaya is a singer, actor, content creator and advocate who often uses her platform to spread positivity, and to amplify other voices. </note>
-        </person>
-        <person>
-          <persName xml:id="ADV" ref="https://lccn.loc.gov/no2011127416">
-            <forename>Ava</forename>
-            <surname>DuVernay</surname>
-          </persName>
-          <idno type="LCAF">no 2011127416</idno>
-          <note>Ava DuVernay is a film writer, producer, and director who has worked on several films and TV shows including Selma, Queen Sugar, and A Wrinkle in Time.</note>
-        </person>
-        <person>
-          <persName xml:id="LED" ref="https://lccn.loc.gov/no2002052001">
-            <forename>Ledisi</forename>
-            <surname>Young</surname>
-            <roleName type="stage-name">Ledisi</roleName>
-          </persName>
-          <idno type="LCAF">no 2002052001</idno>
-          <note>Ledisi is an R&amp;B/Jazz artist who has been nominated for 12 Grammys.</note>
-        </person>
-        <person>
-          <persName xml:id="TMM" ref="https://lccn.loc.gov/n86098656">
-            <forename>Terry</forename>
-            <surname>McMillan</surname>
-          </persName>
-          <idno type="LCAF">n 86098656</idno>
-          <note>Terry McMillan is a New York Times best selling author of several works with female leads.</note>
-        </person>
-        <person>
-          <persName xml:id="VBR" ref="https://lccn.loc.gov/n2007043780">
-            <forename>Vincent</forename>
-            <surname>Brown</surname>
-          </persName>
-          <idno type="LCAF">n 2007043780</idno>
-          <note>At Harvard University, Vincent Brown is Charles Warren Professor of History, Director of the History Design Studio, and Professor of African and Afircan American Studies.</note>
-        </person>
-        <person>
-          <persName xml:id="HAW" ref="https://lccn.loc.gov/n2004036365">
-            <forename type="first">Heather</forename>
-            <forename type="middle">Andrea</forename>
-            <surname>Williams</surname>
-          </persName>
-          <idno type="LCAF">n 2004036365</idno>
-          <note>Heather Andrea Williams is the Presidential Professor of Africa Studies at the University of Pennsylvania. Heather A. Williams is also an author and has worked as the Assistant Attorney General and at the U.S. Justice Department's CIvil Rights Division.</note>
-        </person>
-        <person>
-          <persName xml:id="IA" ref="https://lccn.loc.gov/no2001097196">
-            <forename type="first">India</forename>
-            <forename type="middle">Arie</forename>
-            <surname>Simpson</surname>
-            <roleName type="stage-name">India.Arie</roleName>
-          </persName>
-          <idno type="LCAF">no 2001097196</idno>
-          <note>India.Arie is a Grammy award winning singer-songwriter, who has sold millions of records.</note>
+          <note>Jihan Forbes is writer for Allure who wrote the original article, "100 Years of Black Women's Hairstyles and Hair Trends" which includes the video, "100 Years of Black Hair".</note>
         </person>
       </listPerson>
       <personGrp>
@@ -286,30 +227,37 @@
   </teiHeader>
   <text>
     <body>
-      <p>
-        There is a fine line between what is funny and disrespectful. <choice><orig>Someone</orig><supplied><persName xml:id="GRC">(Giuliana Rancic)</persName></supplied></choice> said <lb/>
-        something about my hair <add source="https://bglh-marketplace.com/2015/02/zendaya-coleman-insulted-over-faux-locs-natural-hair-style-at-the-oscars/">This is a link to a blog with a picture of Zendaya's hairstyle.</add> at the Oscars that left me in awe. Not because I was <lb/> <!-- I decided to put a link to an article that includes a photo of Zendaya's hair to clarify the style Zendaya is talking about. I decided to use this particular website because this is a blog (BGLH) run by a black woman which was mentioned in one of our past readings by Catherine Knight Steele.-->
-        relishing in rave outfit reviews, but because I was hit with ignorant slurs and pure <lb/>
-        disrespect. To say that an 18 year old young woman with <choice><orig><abbr>locs</abbr></orig><reg>(dreadlocks)</reg></choice> must smell of <lb/>
-        patchouli oil or “weed” is not only a large stereotype but outrageously offensive. <lb/>
-        I don’t usually feel the need to respond to negative things but certain remarks cannot <lb/>
-        go unchecked. I’ll have you know my father, brother, best childhood friend and <lb/>
-        little cousins all have have locs. Do you want to know what <persName ref="#ADV">Ava DuVernay</persName> <lb/>
-        (director of the Oscar nominated film Selma), <persName ref="#LED">Ledisi</persName> (9 time Grammy nominated <lb/>
-        singer/songwriter and actress), <persName ref="#TMM">Terry McMillan</persName> (author), <persName ref="#VBR">Vincent Brown</persName> (Professor <lb/>
-        of African and African American studies at <orgName>Harvard University</orgName>), <persName ref="#HAW">Heather Andrea <lb/>
-        Williams</persName> (Historian who also possesses a JD from <orgName>Harvard University</orgName>, and an MA <lb/>
-        and PhD from <orgName>Yale University</orgName>) as well as many other men <choice><orig>woman</orig><corr>(women)</corr></choice> and children of <lb/>
-        all races have in common? Locs. None of which smell of <choice><orig>marajuana</orig><corr>(marijuana)</corr></choice>. There is <lb/>
-        already harsh criticism of African American hair in society without the help of <lb/>
-        ignorant people who choose to judge others based on the curl of their hair. <seg type="natural-hair">My <lb/><!-- This is an example of freedom language because Zendaya is using her hairstyle as a method of liberation in the sense that black hair is often seen in a negative light, and by wearing locs to such a prestigious event, Zendaya is liberating herself and others of sociwties perception of good hair. -->
-        wearing my hair in locs on an Oscar red carpet was to showcase them in a positive <lb/>
-        light, to remind people of color that our hair is good enough.</seg> <seg type="natural-hair">To me locs are a <lb/>
-        symbol of strength and beauty, almost like a lion’s mane.</seg> I suggest some people <lb/>
-        should listen to <persName ref="#IA">India Arie’s</persName> <seg source="https://genius.com/Indiaarie-i-am-not-my-hair-lyrics">“I Am Not My Hair”</seg> and contemplate a little before <lb/> <!-- I decided to include the lyrics to this song as a reference becuase this song is about how African American women are more than their hair which is the center of Zendaya's response. Also, including the lyrics to this song amplifies the work done by India.Arie, a black female recording artist.   -->
-        opening your mouth so quickly to judge. <lb/>
-        -<persName ref="#ZC">Zendaya Coleman</persName> <lb/>
-      </p>
+      <p>100 Years of Black Hair</p>
+      <div type="1920s">
+        <p>1920s: Short, flapper-esque haircuts, Marcel Waves, finger waves, and wigs were popular.</p>
+      </div>
+      <div type="1930s">
+        <p>1930s: Straightened, short hair with curls, waves, or finger waves lived on. Switches (hairpieces) and wigs were also used to mimic straight styles.</p>
+      </div>
+      <div type="1940s">
+        <p>1940s: Hair was kept short and straight, with added curls. The croquignole curl was particularly hip. Women also wore pageboys and wavy hair.</p>
+      </div>
+      <div type="1950s">
+        <p>1950s: Black nationalism slowly started to bubble back up, and straightening black hair was a topic for debate. Straightened, mainstream styles remained popular due to society’s Eurocentric beauty ideals.</p>
+      </div>
+      <div type="1960s">
+        <p>1960s: Natural hair became politicized during the civil rights movement as a rejection of Eurocentric beauty standards. The Afros of activists like the <orgName xml:id="BP">Black Panthers</orgName> became an inspiring symbol of rebellion. People were still straightening their hair, though.</p>
+      </div>
+      <div type="1970s">
+        <p>1970s: Afros started to become more of a fashion choice. Black celebrities like <persName xml:id="DR">Diana Ross</persName> and <persName xml:id="PG">Pam Grier</persName> rocked afros in style. In 1973, <persName xml:id="CT">Cicely Tyson</persName> appeared on the cover of <orgName xml:id="JM">Jet Magazine</orgName> with a stunning, traditionally African hairstyle.</p>
+      </div>
+      <div type="1980s">
+        <p>1980s: The afros became less ubiquitous, but the curls were still in. People gravitated toward lesser-textured curls, or Jheri curls. Asymmetric haircuts, like those seen on <orgName type="group-name" xml:id="SNP">Salt-N-Pepa</orgName>, were also hot in the streets.</p>
+      </div>
+      <div type="1990s">
+        <p>1990s: Straight hair was still popular, but black women were also wearing braids, styling their baby hairs with gel or pomade. Box braids worn by <persName xml:id="JJ">Janet Jackson</persName> in <name type="movie-name">Poetic Justice</name> remain an iconic ’90s look.</p>
+      </div>
+      <div type="2000s">
+        <p>2000s: The rise of online communities and <orgName ref="#YT">YouTube</orgName> facilitated a natural hair “revolution.” Straight styles were still fashionable, but more black women looked for ways to style their natural kinks. Cornrows, sometimes braided in intricate patterns as seen on celebrities like <persName xml:id="AK">Alicia Keys</persName>, were popular.</p>
+      </div>
+      <div type="2010s">
+        <p>2010s: Demand for relaxers continues to drop and natural hairstyles have become more popular than ever… glamorized by YouTube hair gurus and celebrities alike. Braids, twist-outs, bantu knots, locs, and curly Afros are just a few of the many styles black women play with these days.</p>
+      </div>
     </body>
   </text>
 </TEI>
