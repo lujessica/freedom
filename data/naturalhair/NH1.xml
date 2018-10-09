@@ -160,7 +160,13 @@
           </imprint>
           <biblScope unit="page" from="1" to="14">pp. 1-14</biblScope>
         </monogr>
-        <note>In this article, Saidiya Hartman theorizes archival violence and its disproportionate impact on the lives of Black women. Hartman argues that archival traces and texts corroborate representations of Black women as always dead or dying, if not in relentless peril. Such violence dehumanizes Black women, not just in the historical record, but also in contemporary life. This theorizing of archival violence contributes to this digital surrogate insofar as every attempt has been made to recognize and amplify the human activities and accomplishments of Black women, with particular attention paid to their life experiences beyond suffering and pain.</note>
+        <note>In this article, Saidiya Hartman theorizes archival violence and its disproportionate impact
+          on the lives of Black women. Hartman argues that archival traces and texts corroborate
+          representations of Black women as always dead or dying, if not in relentless peril. Such violence
+          dehumanizes Black women, not just in the historical record, but also in contemporary life. This
+          theorizing of archival violence contributes to this digital surrogate insofar as every attempt
+          has been made to recognize and amplify the human activities and accomplishments of Black women,
+          with particular attention paid to their life experiences beyond suffering and pain.</note>
       </biblStruct>
     </sourceDesc>
   </fileDesc>
@@ -216,7 +222,9 @@
             <surname>Coleman</surname>
           </persName>
           <idno type="LCAF">no 2011134244</idno>
-          <note>Zendaya is a singer, actor, content creator and advocate who often uses her platform to spread positivity, and to amplify other voices. </note>
+          <note>Zendaya is a singer, actor, content creator, author, and advocate who often uses her platform to spread
+            body and beauty positivity, amplify the voices of fellow Black women, promote healthy self-esteem among
+            young audiences. </note>
         </person>
         <person>
           <persName xml:id="ADV" ref="https://lccn.loc.gov/no2011127416">
@@ -224,7 +232,10 @@
             <surname>DuVernay</surname>
           </persName>
           <idno type="LCAF">no 2011127416</idno>
-          <note>Ava DuVernay is a film writer, producer, and director who has worked on several films and TV shows including Selma, Queen Sugar, and A Wrinkle in Time.</note>
+          <note>Ava DuVernay is an accomplished screenwriter, producer, and director who has worked on several
+            films and TV shows including Selma, Queen Sugar, and A Wrinkle in Time. Her excellence has been recognized
+            with several notable awards, including the  2017 Bafta Award for Best Documentary, the 2008 NAACP Image
+            Award for Entertainer of the Year, and the 2018 PGA Vanguard Visionary Award.</note>
         </person>
         <person>
           <persName xml:id="LED" ref="https://lccn.loc.gov/no2002052001">

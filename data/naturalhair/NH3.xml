@@ -92,7 +92,10 @@
             <publisher>
               <orgName xml:id="TWITTER">Twitter</orgName>
             </publisher>
-              <pubPlace ref="https://twitter.com/meagnacarta/status/848679489148211201?lang=en">Twitter</pubPlace><!-- Twitter has become a place for black individuals to engage in a digital space freely without policing from an outside group -->
+              <pubPlace ref="https://twitter.com/meagnacarta/status/848679489148211201?lang=en">
+                Twitter
+              </pubPlace><!-- Twitter has become a place for black individuals to engage
+              in a digital space freely without policing from an outside group -->
               <date when="2018-04-02">April 2, 2017</date>
           </bibl>
           <bibl xml:id="JLUDISS">

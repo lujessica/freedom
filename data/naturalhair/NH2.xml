@@ -182,7 +182,10 @@
         <p>Whenever necessary, spacing between words and following punctuation has been regularized to zero spaces; spacing between words has been regularized to one space.</p>
       </normalization>
       <normalization source="https://www.newyorker.com/magazine/2017/05/15/the-case-for-black-english">
-        <p>Instances of African American Vernacular English have purposefully NOT been adjusted to comply with American English language practices. African American Vernacular English is wholly valid in its form, features, and creativity, despite the dominance and presumed correctness of American English.</p>
+        <p>Instances of African American Vernacular English have purposefully NOT been adjusted to comply
+          with American English language practices. African American Vernacular English is wholly valid
+          in its form, features, and creativity, despite the dominance and presumed correctness of
+          American English.</p>
       </normalization>
       <p>To represent changes and/or corrections made by the original source authors BEFORE the encoding process, encoders use <gi>add</gi>, <gi>del</gi>, and <gi>subst</gi>.</p>
       <p>Encoding includes the use of <gi>supplied</gi> to provide clarification and supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
@@ -237,10 +240,11 @@
           <note>Oprah Winfrey is a black feminist activist, talk show host, producer, and is best known wearing her hair in straight styles.</note>
         </person>
       </listPerson>
-      <personGrp>
-        <persName xml:id="BLK">Black and African American people</persName>
-        <note>The identification and amplification of this person group is necessary for the reading and interpretation of this text, as this text uses "the Negro" to erroneously generalize about all Black and African Americans and/or diminish their status as fully human.</note>
-      </personGrp>
+      <personGrp xml:id="BLK" sex="mixed" size="infinite">
+        <p>The identification and amplification of this person group is necessary for the reading
+          and interpretation of this text, as this text uses "the Negro" to erroneously generalize
+          about all Black and African Americans and/or diminish their status
+          as fully human.</p></personGrp>
     </particDesc>
   </profileDesc>
   <revisionDesc>
@@ -264,7 +268,7 @@
             <l> And I hit the barber shop real quick</l>
             <l> Had 'em give me lil' twist and it drove 'em crazy (crazy)</l>
             <l> Then I couldn't get no job</l>
-            <l> 'Cause corporate wouldn't hire no dreadlocks <supplied source= "http://www.stylecraze.com/articles/how-to-make-and-maintain-dreadlocks/#gref"> This is a link to a website that describes of the natural hairstyle, dreadlocks. </supplied></l> <!-- I decided to add a link to describe each hairstyle to explain what it is and to shine a light on the multiple natural hairstyles worn by black people.  -->
+            <l> 'Cause corporate wouldn't hire no dreadlocks <supplied source="http://www.stylecraze.com/articles/how-to-make-and-maintain-dreadlocks/#gref"> This is a link to a website that describes of the natural hairstyle, dreadlocks. </supplied></l> <!-- I decided to add a link to describe each hairstyle to explain what it is and to shine a light on the multiple natural hairstyles worn by black people.  -->
             <l> Then I thought about my dogs from the block</l>
             <l> Kinda understand why they chose to steal and rob</l>
             <l> Was it the hair that got me this far</l>
@@ -273,9 +277,9 @@
             <l>'Cause success didn't come till I cut it all off</l>
           </lg>
           <lg type= "Verse">
-            <l>Little girl with the press and curl <supplied source= "http://endlesscreationssalon.com/what-is-a-press-n-curl/"> This is a link to a website about straightening natural hair with heat into the press and curl style.</supplied></l>
-            <l> Age eight, I got a Jheri curl<supplied source= "http://www.80sfashion.org/the-jheri-curl/"> This is a link to a description of the jheri curl hairstyle. </supplied></l>
-            <l> Thirteen, and I got a relaxer <supplied source= "https://www.naturallycurly.com/curlreading/kinky-hair-type-4a/hair-relaxers-the-facts"> This is a link to a website describing relaxers, the straightening of hair with chemicals. </supplied> </l>
+            <l>Little girl with the press and curl <supplied source="http://endlesscreationssalon.com/what-is-a-press-n-curl/"> This is a link to a website about straightening natural hair with heat into the press and curl style.</supplied></l>
+            <l> Age eight, I got a Jheri curl<supplied source="http://www.80sfashion.org/the-jheri-curl/"> This is a link to a description of the jheri curl hairstyle. </supplied></l>
+            <l> Thirteen, and I got a relaxer <supplied source="https://www.naturallycurly.com/curlreading/kinky-hair-type-4a/hair-relaxers-the-facts"> This is a link to a website describing relaxers, the straightening of hair with chemicals. </supplied> </l>
             <l>I was a source of so much laughter</l>
             <l> I went on and did what I had to do</l>
             <l>Because it was time to change my life</l>
